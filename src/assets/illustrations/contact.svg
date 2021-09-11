@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1, .cls-21 {
-        fill: #6c63ff;
+        fill: #0078E8;
       }
 
       .cls-1, .cls-10, .cls-14, .cls-9 {
@@ -30,7 +30,7 @@
       }
 
       .cls-7 {
-        fill: #5f546f;
+        fill: #93C9F3;
       }
 
       .cls-8 {
@@ -42,7 +42,7 @@
       }
 
       .cls-12 {
-        fill: #4c4981;
+        fill: #93C9F3;
       }
 
       .cls-13 {
@@ -62,7 +62,7 @@
       }
 
       .cls-18 {
-        fill: #575989;
+        fill: #0078E8;
       }
 
       .cls-19 {
@@ -82,7 +82,7 @@
       }
 
       .cls-24 {
-        fill: #efeeff;
+        fill: #EDF6FD;
       }
     </style>
     <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">

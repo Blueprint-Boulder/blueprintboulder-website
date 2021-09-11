@@ -26,6 +26,6 @@ export const Button = styled.button`
   ${({ secondary }) =>
     secondary &&
     `
-		background: #001F3F;
+		background: #93C9FE;
 	`}
 `;

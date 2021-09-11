@@ -12,16 +12,29 @@ export const Skills = () => {
     <Wrapper id="about">
       <SkillsWrapper as={Container}>
         <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+          <img src={dev} alt="Blueprint Boulder" />
         </Thumbnail>
         <Details theme={theme}>
-          <h1>More about me</h1>
+          <h1>Are you a CU affiliate?</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry’s standard dummy.
+            Blueprint Boulder is open and looking for CU students of any skill-level, who are Interested
+            in design, devlopment, or relations with our non-profit partners. Click below to sign up for our
+            interest form, and we'll be in contact with you!
+          </p>
+          <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSf0NldwrKU2F5ypmepXFs26uIfvSAx7nSFEV-mIjQ53s1HeAg/viewform?usp=sf_link">
+            <Button>
+              Interest Form 2021
+            </Button>
+          </a>
+        </Details>
+        <Details theme={theme}>
+          <h1>Are you a Non-profit?</h1>
+          <p>
+            Blueprint Boulder accepts non-profit applications for projects during the Summer. Projects are vetted by our team,
+            and finalists will have their project built starting in the Fall, with estimated completion by next Spring.
           </p>
           <Button as={AnchorLink} href="#contact">
-            Hire me
+            Send us a message!
           </Button>
         </Details>
       </SkillsWrapper>

@@ -1,8 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Poppins');
   html {
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Poppins', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
@@ -38,12 +39,16 @@ export const Global = createGlobalStyle`
       display: none;
     }
     a {
+      color: #0088F8;
       background-color: transparent;
       -webkit-text-decoration-skip: objects;
     }
     a:active,
     a:hover {
       outline-width: 0;
+    }
+    a:visited {
+      color: #0058C8;
     }
     abbr[title] {
       border-bottom: none;
@@ -602,9 +607,9 @@ export const Global = createGlobalStyle`
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Roboto', Helvetica, sans-serif;
-      color: ${({ theme }) => (theme === 'light' ? 'hsla(0, 0%, 0%, 0.8)' : '#fff')};
-      background-color: ${({ theme }) => (theme === 'light' ? '#fff' : '#212121')};
+      font-family: 'Poppins', Helvetica, sans-serif;
+      color: ${({ theme }) => (theme === 'light' ? '#0078e8' : '#fff')};
+      background-color: ${({ theme }) => (theme === 'light' ? '#fff' : '#002752')};
       transition: .3s all;
       font-weight: normal;
       word-wrap: break-word;

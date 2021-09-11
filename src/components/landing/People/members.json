@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "Dan Liu",
+        "role": "Girls Inc. Team Member",
+        "start_year": "2020",
+        "end_year": "",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": "dan-liu-b44b1610a"
+    },
+    {
+        "id": 1,
+        "name": "James Tran",
+        "role": "Girls Inc. Team Member",
+        "start_year": "2020",
+        "end_year": "",
+        "blurb": "",
+        "image_url": "",
+        "url": "https://sites.google.com/view/james-tran/home",
+        "github": "",
+        "linkedin": ""
+    }
+]
