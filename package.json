@@ -10,7 +10,7 @@
 		"formik": "^2.1.4",
 		"gatsby": "^3.6.1",
 		"gatsby-plugin-canonical-urls": "^3.6.0",
-		"gatsby-plugin-google-analytics": "^3.6.0",
+		"gatsby-plugin-google-gtag": "^3.13.0",
 		"gatsby-plugin-manifest": "^3.6.0",
 		"gatsby-plugin-nprogress": "^3.6.0",
 		"gatsby-plugin-offline": "^4.6.0",
