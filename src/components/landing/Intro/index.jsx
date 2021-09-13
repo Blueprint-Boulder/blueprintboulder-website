@@ -15,7 +15,7 @@ export const Intro = () => {
     <Wrapper>
       <Helmet>
         <script>{`
-				gtag('event', 'page_view', {
+				window.gtag('event', 'page_view', {
 					'page_title': 'Home Page',
 					page_location: 'Default',
 					page_path: '/',
