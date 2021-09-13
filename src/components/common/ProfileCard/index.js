@@ -26,23 +26,12 @@ padding-top: 0;
 `;
 
 export function ProfileCardName(props) {
-
-  if (props.url !== undefined && props.url !== "") {
-    return <h3>
-      <a key={props.id + "_name"} href={props.url} target="_blank" rel="noopener noreferrer" aria-label={props.name + ` link`}>
-        {props.name}
-      </a>
-      <ProfileCardGH github={props.github} name={props.name} id={props.id}></ProfileCardGH>
-      <ProfileCardLinkedIn linkedin={props.linkedin} name={props.name} id={props.id}></ProfileCardLinkedIn>
-    </h3>
-
-  } else {
-    return <h3>
-      {props.name}
-      <ProfileCardGH github={props.github} name={props.name} id={props.id}></ProfileCardGH>
-      <ProfileCardLinkedIn linkedin={props.linkedin} name={props.name} id={props.id}></ProfileCardLinkedIn>
-    </h3>
-  }
+  return <h3 style={{ color: "#0078f8" }}>
+    {props.name}
+    <ProfileCardWebsite url={props.url} name={props.name} id={props.id}></ProfileCardWebsite>
+    <ProfileCardGH github={props.github} name={props.name} id={props.id}></ProfileCardGH>
+    <ProfileCardLinkedIn linkedin={props.linkedin} name={props.name} id={props.id}></ProfileCardLinkedIn>
+  </h3>
 }
 
 export function ProfileCardGH(props) {
@@ -58,6 +47,15 @@ export function ProfileCardLinkedIn(props) {
   if (props.linkedin !== undefined && props.linkedin !== "") {
     return <a key={props.id + "_gh"} href={"https://linkedin.com/in/" + props.linkedin} target="_blank" rel="noopener noreferrer" aria-label={`follow ` + props.name + ` on linkedin`}>
       &nbsp;<img style={{ marginBottom: 0 }} width="17" src="/icons/linkedin.svg" alt={props.name} />
+    </a>
+  }
+  return null;
+}
+
+export function ProfileCardWebsite(props) {
+  if (props.url !== undefined && props.url !== "") {
+    return <a key={props.id + "_url"} href={props.url} target="_blank" rel="noopener noreferrer" aria-label={props.name + `'s website`}>
+      &nbsp;<img style={{ marginBottom: 0 }} width="17" src="/icons/link.svg" alt={props.name} />
     </a>
   }
   return null;

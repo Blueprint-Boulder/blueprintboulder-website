@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <Wrapper as={Container}>
-      <Brand as={Link} to="/" theme={theme}>
+      <Brand as={Link} to="/" style={{ color: (theme === 'light' ? '#000' : '#fff') }} theme={theme}>
         Blueprint Boulder
       </Brand>
       <NavbarLinks desktop />

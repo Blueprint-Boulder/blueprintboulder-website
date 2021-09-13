@@ -14,8 +14,8 @@ export const Wrapper = styled.div`
   }
 
   ${({ sidebar }) =>
-    sidebar &&
-    `
+		sidebar &&
+		`
 			right: 18%;
 			top: 1.4rem;
 		
@@ -34,7 +34,12 @@ export const Bar = styled.div`
 	width: 1.6rem;
 	height: .15rem;
 	margin-bottom: .3rem;
-	background-color: #212121;
+	
+	${({ theme }) =>
+		`
+	background-color: ${(theme === 'light' ? '#212121' : '#fff')};
+	`}
+	
 	transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91),
 	opacity 500ms,
 	box-shadow 250ms,
@@ -45,8 +50,8 @@ export const Bar = styled.div`
 	}
 
 	${({ top, sidebar, theme }) =>
-    top &&
-    sidebar &&
+		top &&
+		sidebar &&
 		`
 		background-color: ${(theme === 'light' ? '#212121' : '#fff')};
 		transform: translateY(8px) rotate(-135deg);
@@ -54,15 +59,15 @@ export const Bar = styled.div`
 	`}
 
 	${({ mid, sidebar }) =>
-    mid &&
-    sidebar &&
+		mid &&
+		sidebar &&
 		`
 		transform: scale(0);
 		`}
 
 	${({ bottom, sidebar, theme }) =>
-    bottom &&
-    sidebar &&
+		bottom &&
+		sidebar &&
 		`
 			background-color: ${(theme === 'light' ? '#212121' : '#fff')};
 			transform: translateY(-6px) rotate(-45deg);

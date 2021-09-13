@@ -3,10 +3,12 @@ import overlayIllustration from 'assets/illustrations/overlay.svg';
 
 export const Wrapper = styled.div`
   padding-bottom: 4rem;
-  background-image: url(${overlayIllustration});
-  background-size: contain;
-  background-position: right top;
-  background-repeat: no-repeat;
+  @media (min-width: 960px) {
+    background-image: url(${overlayIllustration});
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
 `;
 
 export const IntroWrapper = styled.div`
@@ -33,10 +35,6 @@ export const Details = styled.div`
     font-size: 36pt;
     color: ${({ theme }) => (theme === 'light' ? '#0078E8' : '#fff')};
 
-    @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
-    }
-
     @media (max-width: 680px) {
       font-size: 30pt;
     }
@@ -48,10 +46,6 @@ export const Details = styled.div`
     font-weight: normal;
     color: ${({ theme }) => (theme === 'light' ? '#707070' : '#e6e6e6')};
 
-    @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
-    }
-
     @media (max-width: 680px) {
       font-size: 26pt;
     }
@@ -59,13 +53,16 @@ export const Details = styled.div`
 `;
 
 export const Thumbnail = styled.div`
+  display: flex;
   flex: 1;
+  justify-content: right;
+  
 
   @media (max-width: 960px) {
     width: 100%;
   }
 
   img {
-    width: 100%;
+    width: 90%;
   }
 `;

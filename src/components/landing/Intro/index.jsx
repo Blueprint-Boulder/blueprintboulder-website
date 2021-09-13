@@ -21,13 +21,10 @@ export const Intro = () => {
             Get in touch!
           </Button>
 
-          &nbsp;
+          <br />
+          <br />
           <a href="https://calblueprint.org/" rel="noreferrer" target="_blank">
-            <Button secondary>
-
-              Berkeley chapter
-
-            </Button>
+            Looking for our Berkeley chapter?
           </a>
 
         </Details>
