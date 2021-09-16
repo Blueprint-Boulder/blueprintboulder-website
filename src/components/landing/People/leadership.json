@@ -101,11 +101,11 @@
         "role": "Foster Source Team Lead",
         "start_year": "2021",
         "end_year": "Present",
-        "blurb": "",
-        "image_url": "",
+        "blurb": "Hello! I'm Jett, a third year undergraduate student working towards a B.S. in computer science with a minor in business. I love working on meaningful & impactful software projects (such as Foster Source's!), watching movies, spending time with friends and family, and learning new things. If you see me around, say hi!",
+        "image_url": "/profiles/jett.png",
         "url": "",
         "github": "",
-        "linkedin": ""
+        "linkedin": "jettcrowson"
     },
     {
         "id": 9,
@@ -113,11 +113,11 @@
         "role": "Impact on Eduction co-Team Lead",
         "start_year": "2021",
         "end_year": "Present",
-        "blurb": "",
-        "image_url": "",
+        "blurb": "Im a rising senior here at CU Boulder, majoring in computer science with a minor in humanities -  I love spending my time outside reading!",
+        "image_url": "/profiles/satara.jpeg",
         "url": "",
         "github": "",
-        "linkedin": ""
+        "linkedin": "satarakehn"
     },
     {
         "id": 10,
