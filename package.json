@@ -6,6 +6,7 @@
 	"author": "Template by Smakosh, development by Blueprint",
 	"dependencies": {
 		"axios": "^0.21.1",
+		"deepmerge": "^4.2.2",
 		"dotenv": "^10.0.0",
 		"formik": "^2.1.4",
 		"gatsby": "^3.6.1",

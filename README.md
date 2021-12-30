@@ -18,6 +18,7 @@ Hosted on [BlueprintBoulder.org](https://blueprintboulder.org). Built by [ItsMic
 
 ## Development Notes
 
+- **IMPORTANT-** Test production build before PR/commit to main! Do this by creating `.env.production` with the same values as `.env.development`, and then running `npm run build` in a terminal.
 - Use Gatsby.js/React docs for more on how to develop this site.
 - Pages go in `src/pages`, so if you're creating a new page, it goes there. 
     - The URL will match with the name of the file, i.e. `src/pages/bios.js` = https://blueprintboulder.org/bios. 
