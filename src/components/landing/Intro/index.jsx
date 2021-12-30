@@ -15,6 +15,8 @@ export const Intro = () => {
     <Wrapper>
       <Helmet>
         <script>{`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
 				window.gtag('event', 'page_view', {
 					'page_title': 'Home Page',
 					page_location: 'Default',
