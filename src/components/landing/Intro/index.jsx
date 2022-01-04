@@ -38,7 +38,7 @@ export const Intro = () => {
           <br />
           <br />
           <a href="https://calblueprint.org/" rel="noreferrer" target="_blank">
-            Looking for our Berkeley chapter?
+            Looking for our parent organization at Berkeley?
           </a>
 
         </Details>
