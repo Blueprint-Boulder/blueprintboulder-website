@@ -1,19 +1,18 @@
 import React, { useContext } from "react";
-import { Layout, Seo } from "components/common";
+import { Button, Layout, Seo } from "components/common";
 import { Container, Card, TitleWrap } from 'components/common';
 import { ThemeContext } from 'providers/ThemeProvider';
+import {WorkWelcome, Skills, Contact, Projects } from "../components/landing";
 import { Wrapper, Grid, Item, Content, Stats } from '../components/landing/Projects/styles';
 
 const AllProjects = () => (
 	<Layout>
-		<Seo title="Projects" location="/projects" />
+		<Seo title="Work With Us" location="/work-with-us" />
+		<WorkWelcome />
 		<Wrapper as={Container}>
-			<h1>Projects</h1>
-			<p>Every year, we work with a few nonprofits to help them effectively utilize technology to make a greater impact.</p>
+			<h1>Our Process</h1>
 
-			{/* TODO: don't hard code this! Add all projects to a json and loop, like profiles */}
-			{/* TODO: bug - always in dark mode? */}
-			{/* TODO: add live project links to href, for past projects and then current when they're done */}
+
 			<h2>Current Projects</h2>
 			<Grid>
 
