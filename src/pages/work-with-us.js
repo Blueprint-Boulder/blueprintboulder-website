@@ -23,29 +23,29 @@ const AllProjects = () => (
 			<h1>Our Process</h1>
 <br />
 <br />
-			<Grid >
-				<Item theme={useContext(ThemeContext)}>
+			<Grid>
+				<Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
 				     <img src={workprocess1} alt="" style={{height: "30vh"}} />
 				</Item>
-				<Item theme={useContext(ThemeContext)}>
+				<Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
 				<img src={workprocess2} alt="" style={{height: "30vh"}}/>
 				</Item>
-				<Item theme={useContext(ThemeContext)}>
+				<Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
 				<img src={workprocess3} alt="" style={{height: "30vh"}}/>
 				</Item>
-				<Item theme={useContext(ThemeContext)}>
+				<Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
                 <img src={workprocess4} alt="" style={{height: "30vh"}}/>
                 </Item>
-                <Item theme={useContext(ThemeContext)}>
+                <Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
                 <img src={workprocess5} alt="" style={{height: "30vh"}} />
                 </Item>
-                <Item theme={useContext(ThemeContext)}>
+                <Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
                 <img src={workprocess6} alt="" style={{height: "30vh"}}/>
                 </Item>
-                <Item theme={useContext(ThemeContext)}>
+                <Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
                 <img src={workprocess7} alt="" style={{height: "30vh"}}/>
                 </Item>
-                <Item theme={useContext(ThemeContext)}>
+                <Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
                 <img src={workprocess8} alt="" style={{height: "30vh"}}/>
                 </Item>
 			</Grid>

@@ -133,14 +133,14 @@
     },
     {
         "id": 11,
-        "name": "You",
+        "name": "Jasey Chanders",
         "role": "Nonprofit Coordinator",
         "start_year": "2021",
-        "end_year": "",
-        "blurb": "We're looking for CU students to help us out by filling in two nonprofit coordinator roles! Contact us below.",
-        "image_url": "",
-        "url": "",
-        "github": "",
-        "linkedin": ""
+        "end_year": "Present",
+        "blurb": "I am a sophomore at CU majoring in Computer Science and minoring in CTD and Leadership. I’m a passionate designer/creator and am happiest when diving into a new project. I love the process of taking an idea and making it into a reality, especially when that reality has a positive impact on our world.",
+        "image_url": "/profiles/Jasey_Chanders.png",
+        "url": "jaseychanders.com",
+        "github": "jaseychanders",
+        "linkedin": "jasey-chanders-7719511bb"
     }
 ]

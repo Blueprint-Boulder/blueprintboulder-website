@@ -29,7 +29,7 @@ export const WorkWelcome = () => {
       <IntroWrapper as={Container}>
         <Details theme={theme}>
             <br />
-          <h4>Blueprint can help you develop software custom to your unique nonprofit’s needs completely free of charge!</h4>
+          <h4>Blueprint can help you develop software custom to your unique nonprofit’s needs completely free of charge</h4>
             <br />
           <Button>
               <a href="https://calendly.com/blueprintboulder/project-scoping"  style={{color: "white"}}>

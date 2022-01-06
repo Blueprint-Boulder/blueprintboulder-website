@@ -30,11 +30,13 @@ export const Skills = () => {
         <Details theme={theme}>
           <h1>Are you a Non-profit?</h1>
           <p>
-            Blueprint Boulder accepts non-profit applications for projects during the Summer. Projects are vetted by our team,
-            and finalists will have their project built starting in the Fall, with estimated completion by next Spring.
+            Blueprint Boulder accepts non-profit applications in January and February for projects during the following school year. Projects are vetted by our team,
+            and finalists will have their project built starting in the Fall, with estimated completion by the following Spring.
           </p>
-          <Button as={AnchorLink} href="#contact">
-            Send us a message!
+          <Button>
+            <a href="/work-with-us"  style={{color: "white"}}>
+              Work with us!
+            </a>
           </Button>
         </Details>
       </SkillsWrapper>
