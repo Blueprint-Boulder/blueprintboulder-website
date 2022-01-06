@@ -9,7 +9,7 @@ const NavbarLinks = ({ desktop }) => {
 
   return (
     <Wrapper desktop={desktop} theme={theme}>
-      <AnchorLink href="#about">About</AnchorLink>
+      <AnchorLink href="/#about">About</AnchorLink>
       <AnchorLink href="#projects">Projects</AnchorLink>
       <AnchorLink href="#people">People</AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
@@ -18,5 +18,6 @@ const NavbarLinks = ({ desktop }) => {
   )
 
 };
+
 
 export default NavbarLinks;
