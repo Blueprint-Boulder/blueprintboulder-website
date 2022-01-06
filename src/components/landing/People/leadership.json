@@ -85,18 +85,6 @@
     },
     {
         "id": 7,
-        "name": "Paige Burns",
-        "role": "Webmaster",
-        "start_year": "2020",
-        "end_year": "Present",
-        "blurb": "",
-        "image_url": "",
-        "url": "",
-        "github": "",
-        "linkedin": ""
-    },
-    {
-        "id": 8,
         "name": "Jett Crowson",
         "role": "Foster Source Team Lead",
         "start_year": "2021",
@@ -108,7 +96,7 @@
         "linkedin": "jettcrowson"
     },
     {
-        "id": 9,
+        "id": 8,
         "name": "Satara Kehn",
         "role": "Impact on Eduction co-Team Lead",
         "start_year": "2021",
@@ -120,7 +108,7 @@
         "linkedin": "satarakehn"
     },
     {
-        "id": 10,
+        "id": 9,
         "name": "Anne Chen",
         "role": "CIRC Team Lead",
         "start_year": "2021",
@@ -132,7 +120,7 @@
         "linkedin": ""
     },
     {
-        "id": 11,
+        "id": 10,
         "name": "Jasey Chanders",
         "role": "Nonprofit Coordinator",
         "start_year": "2021",
@@ -142,5 +130,17 @@
         "url": "jaseychanders.com",
         "github": "jaseychanders",
         "linkedin": "jasey-chanders-7719511bb"
+    },
+    {
+        "id": 11,
+        "name": "Race Mouty",
+        "role": "Nonprofit Coordinator",
+        "start_year": "2021",
+        "end_year": "Present",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
     }
 ]

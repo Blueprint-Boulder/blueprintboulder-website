@@ -4,3 +4,4 @@ export * from './Contact';
 export * from './Projects';
 export * from './WorkWelcome';
 export * from './ProjectsWelcome';
+export * from './PeopleWelcome';
