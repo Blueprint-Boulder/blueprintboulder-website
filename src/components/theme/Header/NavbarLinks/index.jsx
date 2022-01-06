@@ -13,7 +13,7 @@ const NavbarLinks = ({ desktop }) => {
   return (
     <Wrapper desktop={desktop} theme={theme}>
       <AnchorLink to="/">Home</AnchorLink>
-      <AnchorLink to="/#projects">Projects</AnchorLink>
+      <AnchorLink to="/projects">Projects</AnchorLink>
       <AnchorLink to="/#about">About</AnchorLink>
       <AnchorLink to="/work-with-us">Work with us</AnchorLink>
       <AnchorLink to="/#people">People</AnchorLink>
