@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Foster Source",
+        "session": "Fall 2021-Present",
+        "tldr": "Respite Matching Website",
+        "description": "Finding temporary childcare (i.e. babysitting, though in the foster care system it is called 'respite') requires meeting strict county guidelines, for good reason. However, this makes it difficult for foster parents to take time off, and often leads to burnout. Blueprint's respite-matching website will allow foster parents to find each other for respite when they need it, which will increase retention rates in the foster care system.",
+        "github": "blueprintboulder/f21s22-foster-source",
+        "url": "https://fostersource.org/",
+        "image_url": "/nonprofit_logos/foster_source.png"
+    },
+    {
+        "id": 2,
+        "name": "Colorado Immigrant Rights Coalition",
+        "session": "Fall 2021-Present",
+        "tldr": "Hotline Mobile App",
+        "description": "Immigrant communities regularly face hostility and panic outbreaks that can often be alleviated through access to information. Blueprint's hotline app will enable immigrants to know their rights and receive assistance in difficult situations.",
+        "github": "blueprintboulder/f21s22-circ",
+        "url": "https://coloradoimmigrant.org/",
+        "image_url": "/nonprofit_logos/circ.png"
+    },
+    {
+        "id": 3,
+        "name": "Impact on Education",
+        "session": "Fall 2021-Present",
+        "tldr": "Scholarship Portal",
+        "description": "To make scholarship/grant application reviews fair in the Boulder Valley School District, all applicants' identifying information is removed before the review process. However, this is currently done manually, which is extremely time consuming. Blueprint's scholarship portal will use natural language processing to automate the redaction process, in order to efficiently continue this ethical practice.",
+        "github": "blueprintboulder/f21s22-impact-on-education",
+        "url": "https://www.impactoneducation.org/",
+        "image_url": "/nonprofit_logos/impact_on_education.png"
+    }
+]

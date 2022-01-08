@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "MingMing Sun Samridhi",
+        "role": "Girls Inc. Team Lead",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 2,
+        "name": "James Tran",
+        "role": "Girls Inc. Designer",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 3,
+        "name": "Paige Burns",
+        "role": "Girls Inc. Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 4,
+        "name": "Elly Landrum",
+        "role": "Girls Inc. Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 5,
+        "name": "Dan Liu",
+        "role": "Girls Inc. Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 6,
+        "name": "Jaskrit Singh",
+        "role": "Thinking Huts Team Lead",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 7,
+        "name": "Huilin",
+        "role": "Thinking Huts Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 8,
+        "name": "Cathleen",
+        "role": "Thinking Huts Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 9,
+        "name": "Isabell",
+        "role": "Thinking Huts Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 10,
+        "name": "Sahand",
+        "role": "Thinking Huts Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 11,
+        "name": "Neha",
+        "role": "Safehouse Denver Team Lead",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 12,
+        "name": "Lauren",
+        "role": "Safehouse Denver Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 13,
+        "name": "Anushka",
+        "role": "Safehouse Denver Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 14,
+        "name": "Angel",
+        "role": "Safehouse Denver Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 15,
+        "name": "Ashlynn",
+        "role": "Safehouse Denver Team Member",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    }
+]

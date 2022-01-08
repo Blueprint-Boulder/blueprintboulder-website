@@ -3,7 +3,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
-import dev from 'assets/illustrations/banner.png';
+import devBlack from 'assets/illustrations/banner.png';
+import devWhite from 'assets/illustrations/bannerWhite.png';
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
 import { Helmet } from 'react-helmet';
 import { googleAnalyticsID } from 'data/config';
@@ -31,19 +32,30 @@ export const Intro = () => {
           <h1>Hi There!</h1>
           <h4>We're Blueprint Boulder, and we've been creating tech for social good since 2020.</h4>
 
-          <Button as={AnchorLink} href="#contact">
+          <Button as={AnchorLink} href="#contact" style={{color: "white"}}>
             Get in touch!
           </Button>
 
           <br />
           <br />
           <a href="https://calblueprint.org/" rel="noreferrer" target="_blank">
-            Looking for our Berkeley chapter?
+            Looking for our parent organization at Berkeley?
           </a>
 
         </Details>
         <Thumbnail>
-          <img src={dev} alt="We're Blueprint Boulder, and we make tech happen for social good." />
+          
+            {theme == "dark" &&
+            <picture>
+              <source media='(min-width:2500px)' srcSet={devWhite}></source>
+              <source media='(min-width:1450px)' srcSet={devBlack}></source>
+              <img src={devWhite} alt="We're Blueprint Boulder, and we make tech happen for social good." />
+            </picture>
+            }
+            {theme == "light" && 
+              <img src={devBlack} alt="We're Blueprint Boulder, and we make tech happen for social good." />
+            }
+          
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>

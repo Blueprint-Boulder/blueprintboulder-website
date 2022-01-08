@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 export const Grid = styled.div`
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 8fr;
   gap: 1.2rem 1.2rem;
 
@@ -17,6 +17,10 @@ export const Grid = styled.div`
 
   @media (max-width: 680px) {
     grid-template-columns: 1fr;
+  }
+  
+  @media (max-width: 300px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 `;
 

@@ -14,7 +14,7 @@ export const Footer = () => (
             💖
           </span>{' '}
           by{' '}
-          <a href="https://michal.us">Michal Bodzianowski</a> with template by&nbsp;
+          <a href="https://github.com/blueprintboulder/blueprintboulder-website/graphs/contributors">Blueprint Team</a> with template by&nbsp;
           <a href="https://smakosh.com/?ref=portfolio-dev" rel="noopener noreferrer" target="_blank">
             Smakosh
           </a>
