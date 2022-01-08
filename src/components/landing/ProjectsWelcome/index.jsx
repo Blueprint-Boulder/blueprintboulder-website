@@ -30,7 +30,6 @@ export const ProjectsWelcome = () => {
             <br />
           <h1>Curious what we do? </h1>
             <br />
-            <br />
           <h4>Every year we work with nonprofits to make their greatest impact through effectively utilizing technology.</h4>
 
         </Details>
