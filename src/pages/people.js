@@ -11,7 +11,9 @@ import members21spring from "../components/landing/People/members-spring-21.json
 
 
 
-const AllProjects = () => (
+const AllProjects = () => {
+	const { theme } = useContext(ThemeContext);
+return (
 	<Layout>
 		<Seo title="Work With Us" location="/work-with-us" />
 		<PeopleWelcome />
@@ -21,8 +23,8 @@ const AllProjects = () => (
 			<h3>Leadership</h3>
 			<LeaderGrid>
 				{leaders.map(({ id, name, role, start_year, end_year, blurb, image_url, github, url, linkedin }) => (
-					<Item key={id} theme={ThemeContext}>
-						<ProfileCard theme={ThemeContext}>
+					<Item key={id} theme={theme}>
+						<ProfileCard theme={theme}>
 
 
 							<ProfileImage src={image_url} alt={name}></ProfileImage>
@@ -43,11 +45,11 @@ const AllProjects = () => (
 			<h3>2021-2022 Project Team Members</h3>
 			<MemberGrid>
 				{members2122.map(({ id, name, role, start_year, end_year, blurb, image_url, github, url, linkedin }) => (
-					<Item key={id} theme={ThemeContext}>
-						<ProfileCard theme={ThemeContext}>
+					<Item key={id} theme={theme}>
+						<ProfileCard theme={theme}>
 
 
-							<ProfileCardContents>
+							<ProfileCardContents theme={theme}>
 								<Content>
 
 									<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
@@ -65,11 +67,11 @@ const AllProjects = () => (
 			<h3>Spring 2021 Project Team Members</h3>
 			<MemberGrid>
 				{members21spring.map(({ id, name, role, start_year, end_year, blurb, image_url, github, url, linkedin }) => (
-					<Item key={id} theme={ThemeContext}>
-						<ProfileCard theme={ThemeContext}>
+					<Item key={id} theme={theme}>
+						<ProfileCard theme={theme}>
 
 
-							<ProfileCardContents>
+							<ProfileCardContents theme={theme}>
 								<Content>
 
 									<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
@@ -86,5 +88,5 @@ const AllProjects = () => (
 		</Wrapper>
 
 	</Layout>
-);
+)};
 export default AllProjects;
