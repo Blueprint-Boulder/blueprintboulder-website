@@ -59,13 +59,14 @@ const AllProjects = () => {
 
 										<br />
 										<br />
-
-										<a href={live_project_url}>
-											<Button href={live_project_url}>
-												View Project
-											</Button>
-										</a>
-
+										{/* If no live preview, don't render button */}
+										{live_project_url !== undefined && live_project_url !== "" &&
+											<a href={live_project_url}>
+												<Button href={live_project_url}>
+													View Project
+												</Button>
+											</a>
+										}
 									</Content>
 								</ProjectCardContents>
 							</ProjectCard>
