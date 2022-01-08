@@ -84,6 +84,30 @@
         "linkedin": "huilin-han-a93468157"
     },
     {
+        "id": 10,
+        "name": "Jasey Chanders",
+        "role": "Nonprofit Coordinator",
+        "start_year": "2021",
+        "end_year": "Present",
+        "blurb": "I am a sophomore at CU majoring in Computer Science and minoring in CTD and Leadership. I’m a passionate designer/creator and am happiest when diving into a new project. I love the process of taking an idea and making it into a reality, especially when that reality has a positive impact on our world.",
+        "image_url": "/profiles/jasey.png",
+        "url": "jaseychanders.com",
+        "github": "jaseychanders",
+        "linkedin": "jasey-chanders-7719511bb"
+    },
+    {
+        "id": 11,
+        "name": "Race Mouty",
+        "role": "Nonprofit Coordinator",
+        "start_year": "2021",
+        "end_year": "Present",
+        "blurb": "",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
         "id": 7,
         "name": "Jett Crowson",
         "role": "Foster Source Team Lead",
@@ -111,30 +135,6 @@
         "id": 9,
         "name": "Anne Chen",
         "role": "CIRC Team Lead",
-        "start_year": "2021",
-        "end_year": "Present",
-        "blurb": "",
-        "image_url": "",
-        "url": "",
-        "github": "",
-        "linkedin": ""
-    },
-    {
-        "id": 10,
-        "name": "Jasey Chanders",
-        "role": "Nonprofit Coordinator",
-        "start_year": "2021",
-        "end_year": "Present",
-        "blurb": "I am a sophomore at CU majoring in Computer Science and minoring in CTD and Leadership. I’m a passionate designer/creator and am happiest when diving into a new project. I love the process of taking an idea and making it into a reality, especially when that reality has a positive impact on our world.",
-        "image_url": "/profiles/Jasey_Chanders.png",
-        "url": "jaseychanders.com",
-        "github": "jaseychanders",
-        "linkedin": "jasey-chanders-7719511bb"
-    },
-    {
-        "id": 11,
-        "name": "Race Mouty",
-        "role": "Nonprofit Coordinator",
         "start_year": "2021",
         "end_year": "Present",
         "blurb": "",

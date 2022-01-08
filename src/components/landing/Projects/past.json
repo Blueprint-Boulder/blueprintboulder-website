@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Thinking Huts",
+        "session": "Spring 2021",
+        "tldr": "Web Scrapper for Madagascan Suppliers",
+        "description": "Web scraping app to remotely gather information about local supplies/contacts to 3D print schools in Madagascar",
+        "github": "blueprintboulder/s21-thinking-huts",
+        "url": "https://www.thinkinghuts.org/",
+        "live_project_url": "https://github.com/blueprintboulder/s21-thinking-huts/blob/main/Thinking%20Huts%20Documentation.pdf",
+        "image_url": "/nonprofit_logos/thinking_huts.png"
+    },
+    {
+        "id": 2,
+        "name": "Girls Inc Metro Denver",
+        "session": "Spring 2021",
+        "tldr": "Gamified Learning Platform",
+        "description": "Pandemic proofing their after school programming with a gamified web app in order to help girls be strong, smart, and bold.",
+        "github": "blueprintboulder/s21-girls-inc",
+        "url": "https://www.girlsincdenver.org/",
+        "live_project_url": "https://www.girlsincdenver.org/bb-girls_inc_game/",
+        "image_url": "/nonprofit_logos/girls_inc.png"
+    },
+    {
+        "id": 3,
+        "name": "Safehouse Denver",
+        "session": "Spring 2021",
+        "tldr": "Apricot Database Redesign and Resources",
+        "description": "Redesign data organization and improving Safehouse Denver's data insight and technical sustainability by creating video tutorials that could instruct their staff how to work within and modify their Apricot database.",
+        "url": "https://safehouse-denver.org/",
+        "live_project_url": "#-no-access",
+        "image_url": "/nonprofit_logos/safehouse_denver.jpeg"
+    }
+]
