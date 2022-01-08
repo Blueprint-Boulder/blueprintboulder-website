@@ -3,7 +3,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
-import dev from 'assets/illustrations/banner.png';
+import devBlack from 'assets/illustrations/banner.png';
+import devWhite from 'assets/illustrations/bannerWhite.png';
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
 import { Helmet } from 'react-helmet';
 import { googleAnalyticsID } from 'data/config';
@@ -43,7 +44,13 @@ export const Intro = () => {
 
         </Details>
         <Thumbnail>
-          <img src={dev} alt="We're Blueprint Boulder, and we make tech happen for social good." />
+          <picture>
+            {theme == "dark" &&
+            <source media='(min-width:2500px)' srcSet={devWhite}></source>
+            }
+            <source media='(min-width:1450px)' srcSet={devBlack}></source>
+            <img src={devWhite} alt="We're Blueprint Boulder, and we make tech happen for social good." />
+          </picture>
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>

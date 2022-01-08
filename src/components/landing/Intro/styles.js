@@ -3,7 +3,7 @@ import overlayIllustration from 'assets/illustrations/overlay.svg';
 
 export const Wrapper = styled.div`
   padding-bottom: 4rem;
-  @media (min-width: 960px) {
+  @media (min-width: 1450px) {
     background-image: url(${overlayIllustration});
     background-size: contain;
     background-position: right top;
@@ -57,7 +57,7 @@ export const Thumbnail = styled.div`
   flex: 1;
   justify-content: right;
   
-
+  
   @media (max-width: 960px) {
     width: 100%;
   }
