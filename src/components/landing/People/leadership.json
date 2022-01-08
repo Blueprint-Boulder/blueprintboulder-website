@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Michelle Tran",
-        "role": "President",
+        "role": "President / Co-Founder",
         "start_year": "2020",
         "end_year": "Present",
         "blurb": "Michelle is a third year computer science major interested in misinformation research, quantum computing, and philanthropic computing. When she's not being a workaholic, Michelle enjoys singing, spending time with her family, and going down Wikipedia/Quora rabbit holes.",
@@ -50,7 +50,7 @@
     {
         "id": 2,
         "name": "Yvonne Liu",
-        "role": "Treasurer",
+        "role": "Treasurer / Co-Founder",
         "start_year": "2020",
         "end_year": "Present",
         "blurb": "Yvonne is a junior in Computer Science with a minor in Creative Technology and Design. She can be found at the gym or at home cooking some of her favorite dishes.",
@@ -74,7 +74,7 @@
     {
         "id": 4,
         "name": "Huilin Han",
-        "role": "Culture Coordinator",
+        "role": "Culture Coordinator / Co-Founder",
         "start_year": "2020",
         "end_year": "Present",
         "blurb": "I'm a junior studying Computer Science and Math for the purpose of working on all types of interdisciplinary projects and is always planning when to take the next walk.",
@@ -125,7 +125,7 @@
         "role": "Impact on Eduction co-Team Lead",
         "start_year": "2021",
         "end_year": "Present",
-        "blurb": "Im a rising senior here at CU Boulder, majoring in computer science with a minor in humanities -  I love spending my time outside reading!",
+        "blurb": "I'm a rising senior here at CU Boulder, majoring in computer science with a minor in humanities -  I love spending my time outside reading!",
         "image_url": "/profiles/satara.jpeg",
         "url": "",
         "github": "",

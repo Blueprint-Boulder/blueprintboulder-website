@@ -27,11 +27,11 @@ export const ProjectsWelcome = () => {
       <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
-            <br />
+          <br />
           <h1>Curious what we do? </h1>
-            <br />
-            <br />
-          <h4>Every year we work with nonprofits to make their greatest impact through effectively utilizing technology.</h4>
+          <br />
+          <br />
+          <h4>Every year we help nonprofits amplify their impact through effectively using technology.</h4>
 
         </Details>
         <Thumbnail>

@@ -1,10 +1,9 @@
-import React, { useContext } from "react";
-import { Layout, Seo } from "components/common";
-import { Button, Container, Card, TitleWrap } from 'components/common';
+import React from "react";
+import { Layout, Seo, Container, Button } from "components/common";
 import { ThemeContext } from 'providers/ThemeProvider';
-import { Wrapper, Grid, Item, Content, Stats } from '../components/landing/Projects/styles';
+import { Wrapper, Grid, Item, Content } from '../components/landing/Projects/styles';
 import { ProjectsWelcome } from "../components/landing";
-import { ProfileCard, ProfileCardContents, ProfileCardName, ProfileImage } from 'components/common/ProfileCard';
+import { ProjectCard, ProjectCardContents, ProjectImage, ProjectCardName } from 'components/common/ProjectCard';
 import current from "../components/landing/Projects/current.json"
 import past from "../components/landing/Projects/past.json"
 
@@ -18,21 +17,21 @@ const AllProjects = () => (
 			<Grid>
 				{current.map(({ id, name, session, tldr, description, image_url, github, url }) => (
 					<Item key={id} theme={ThemeContext}>
-						<ProfileCard theme={ThemeContext}>
+						<ProjectCard theme={ThemeContext}>
 
 
-							<ProfileImage src={image_url} alt={name}></ProfileImage>
-							<ProfileCardContents>
+							<ProjectImage src={image_url} alt={name}></ProjectImage>
+							<ProjectCardContents>
 								<Content>
 
-									<ProfileCardName github={github} name={name} id={id} url={url}></ProfileCardName>
+									<ProjectCardName github={github} name={name} id={id} url={url}></ProjectCardName>
 									<h4>{tldr}</h4>
 									<p>{description}</p>
 									<small>{session}</small>
 
 								</Content>
-							</ProfileCardContents>
-						</ProfileCard>
+							</ProjectCardContents>
+						</ProjectCard>
 					</Item>
 				))}
 			</Grid>
@@ -43,14 +42,14 @@ const AllProjects = () => (
 
 				{past.map(({ id, name, session, tldr, description, image_url, github, url, live_project_url }) => (
 					<Item key={id} theme={ThemeContext}>
-						<ProfileCard theme={ThemeContext}>
+						<ProjectCard theme={ThemeContext}>
 
 
-							<ProfileImage src={image_url} alt={name}></ProfileImage>
-							<ProfileCardContents>
+							<ProjectImage src={image_url} alt={name}></ProjectImage>
+							<ProjectCardContents>
 								<Content>
 
-									<ProfileCardName github={github} name={name} id={id} url={url}></ProfileCardName>
+									<ProjectCardName github={github} name={name} id={id} url={url}></ProjectCardName>
 									<h4>{tldr}</h4>
 									<p>{description}</p>
 									<small>{session}</small>
@@ -65,8 +64,8 @@ const AllProjects = () => (
 									</a>
 
 								</Content>
-							</ProfileCardContents>
-						</ProfileCard>
+							</ProjectCardContents>
+						</ProjectCard>
 					</Item>
 				))}
 
