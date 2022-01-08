@@ -44,13 +44,18 @@ export const Intro = () => {
 
         </Details>
         <Thumbnail>
-          <picture>
+          
             {theme == "dark" &&
-            <source media='(min-width:2500px)' srcSet={devWhite}></source>
+            <picture>
+              <source media='(min-width:2500px)' srcSet={devWhite}></source>
+              <source media='(min-width:1450px)' srcSet={devBlack}></source>
+              <img src={devWhite} alt="We're Blueprint Boulder, and we make tech happen for social good." />
+            </picture>
             }
-            <source media='(min-width:1450px)' srcSet={devBlack}></source>
-            <img src={devWhite} alt="We're Blueprint Boulder, and we make tech happen for social good." />
-          </picture>
+            {theme == "light" && 
+              <img src={devBlack} alt="We're Blueprint Boulder, and we make tech happen for social good." />
+            }
+          
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>
