@@ -25,28 +25,28 @@ const AllProjects = () => (
 <br />
 			<Grid>
 				<Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
-				     <img src={workprocess1} alt="" style={{height: "30vh"}} />
+				     <img src={workprocess1} alt="Book an initial meeting with us"  />
 				</Item>
 				<Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
-				<img src={workprocess2} alt="" style={{height: "30vh"}}/>
+					<img src={workprocess2} alt="Brainstorm project and begin to form a plan" />
 				</Item>
 				<Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
-				<img src={workprocess3} alt="" style={{height: "30vh"}}/>
+					<img src={workprocess3} alt="If the project seems like a potential match for our team" />
 				</Item>
 				<Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
-                <img src={workprocess4} alt="" style={{height: "30vh"}}/>
+                	<img src={workprocess4} alt="Meet again to hash out details and scope" />
                 </Item>
                 <Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
-                <img src={workprocess5} alt="" style={{height: "30vh"}} />
+                	<img src={workprocess5} alt="If your project seems like on of the most viable options for our team's skills"  />
                 </Item>
                 <Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
-                <img src={workprocess6} alt="" style={{height: "30vh"}}/>
+                	<img src={workprocess6} alt="Final design and decision meeting" />
                 </Item>
                 <Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
-                <img src={workprocess7} alt="" style={{height: "30vh"}}/>
+                	<img src={workprocess7} alt="Once your project is decided on, a project team is assigned and starts work at the beginning of the fall semester" />
                 </Item>
                 <Item theme={useContext(ThemeContext)} style={{"box-shadow": "0 0px 0px 0 rgba(0, 0, 0, 0.11)"}}>
-                <img src={workprocess8} alt="" style={{height: "30vh"}}/>
+                	<img src={workprocess8} alt="Work continues throughout the year with an MVP in the middle of the year and the final project by the end of the spring semester.	" />
                 </Item>
 			</Grid>
 
