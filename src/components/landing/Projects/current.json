@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name": "Impact on Education",
-        "session": "Fall 2021-Present",
+        "session": "Fall 2021-March 2021",
         "tldr": "Scholarship Portal",
         "description": "To make scholarship/grant application reviews fair in the Boulder Valley School District, all applicants' identifying information is removed before the review process. However, this is currently done manually, which is extremely time consuming. Blueprint's scholarship portal will use natural language processing to automate the redaction process, in order to efficiently continue this ethical practice.",
         "github": "blueprintboulder/f21s22-impact-on-education",
