@@ -1,0 +1,134 @@
+[
+    {
+        "id": 16,
+        "name": "Nicholas Henley",
+        "role": "Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 17,
+        "name": "Lilia Garcia",
+        "role": "Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 18,
+        "name": "Leah Dillard",
+        "role": "Designer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 19,
+        "name": "Samridhi Shrestha",
+        "role": "V.P. of Design / Team Lead",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 1,
+        "name": "MingMing Sun",
+        "role": "Team Lead",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 3,
+        "name": "Paige Burns",
+        "role": "Webmaster / Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 5,
+        "name": "Dan Liu",
+        "role": "Developer",
+        "image_url": "/profiles/dan.jpg",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": "dan-liu-b44b1610a"
+    },
+    {
+        "id": 6,
+        "name": "Jaskrit Singh",
+        "role": "Team Lead",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 8,
+        "name": "Cathleen Samson",
+        "role": "Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 10,
+        "name": "Sahand Setareh",
+        "role": "Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 12,
+        "name": "Lauren Funston",
+        "role": "Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 14,
+        "name": "Angel Dong",
+        "role": "Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    }
+]
