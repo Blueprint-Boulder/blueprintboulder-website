@@ -1,92 +1,85 @@
 import React, { useContext } from "react";
-import { Button, Layout, Seo } from "components/common";
-import { Container, Card, TitleWrap } from 'components/common';
+import { Layout, Seo } from "components/common";
+import { Container } from 'components/common';
 import { ThemeContext } from 'providers/ThemeProvider';
-import {PeopleWelcome} from "../components/landing";
-import { Wrapper, LeaderGrid, MemberGrid, Item, Content} from '../components/landing/People/styles';
+import { PeopleWelcome } from "../components/landing";
+import { Wrapper, PersonGrid, Item, Content } from '../components/landing/People/styles';
 import { ProfileCard, ProfileCardContents, ProfileCardName, ProfileImage } from 'components/common/ProfileCard';
 import leaders from "../components/landing/People/leadership.json"
-import members2122 from "../components/landing/People/members-21-22.json"
-import members21spring from "../components/landing/People/members-spring-21.json"
-
-
+import members from "../components/landing/People/members.json"
+import alumni from "../components/landing/People/alumni.json"
 
 const AllProjects = () => {
 	const { theme } = useContext(ThemeContext);
-return (
-	<Layout>
-		<Seo title="Work With Us" location="/work-with-us" />
-		<PeopleWelcome />
-		<Wrapper as={Container} id="people">
-			<h1>People</h1>
-			<br />
-			<h3>Leadership</h3>
-			<LeaderGrid>
-				{leaders.map(({ id, name, role, start_year, end_year, blurb, image_url, github, url, linkedin }) => (
-					<Item key={id} theme={theme}>
-						<ProfileCard theme={theme}>
+	return (
+		<Layout>
+			<Seo title="People" location="/work-with-us" />
+			<PeopleWelcome />
+			<Wrapper as={Container} id="people">
+				<h1>Team</h1>
+				<PersonGrid>
+					{leaders.map(({ id, name, role, start_year, end_year, image_url, github, url, linkedin }) => (
+						<Item key={id} theme={theme}>
+							<ProfileCard theme={theme}>
 
 
-							<ProfileImage src={image_url} alt={name}></ProfileImage>
-							<ProfileCardContents>
-								<Content>
+								<ProfileImage src={image_url} alt={name}></ProfileImage>
+								<ProfileCardContents>
+									<Content>
 
-									<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
-									<h4>{role}</h4>
-									<p>{blurb}</p>
-									<small>{start_year}-{end_year}</small>
+										<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
+										<h4>{role}</h4>
+										<small>{start_year}-{end_year}</small>
 
-								</Content>
-							</ProfileCardContents>
-						</ProfileCard>
-					</Item>
-				))}
-			</LeaderGrid>
-			<h3>2021-2022 Project Team Members</h3>
-			<MemberGrid>
-				{members2122.map(({ id, name, role, start_year, end_year, blurb, image_url, github, url, linkedin }) => (
-					<Item key={id} theme={theme}>
-						<ProfileCard theme={theme}>
+									</Content>
+								</ProfileCardContents>
+							</ProfileCard>
+						</Item>
+					))}
+					{members.map(({ id, name, role, start_year, end_year, image_url, github, url, linkedin }) => (
+						<Item key={id} theme={theme}>
+							<ProfileCard theme={theme}>
 
+								<ProfileImage src={image_url} alt={name}></ProfileImage>
+								<ProfileCardContents theme={theme}>
+									<Content>
 
-							<ProfileCardContents theme={theme}>
-								<Content>
+										<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
+										<h4>{role}</h4>
+										<small>{start_year}-{end_year}</small>
 
-									<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
-									<h4>{role}</h4>
-									<p>{blurb}</p>
+									</Content>
+								</ProfileCardContents>
+							</ProfileCard>
+						</Item>
+					))}
+				</PersonGrid>
+				<br />
+				<br />
+				<h1>Alumni</h1>
+				<PersonGrid>
+					{alumni.map(({ id, name, role, start_year, end_year, image_url, github, url, linkedin }) => (
+						<Item key={id} theme={theme}>
+							<ProfileCard theme={theme}>
 
-								</Content>
-							</ProfileCardContents>
-						</ProfileCard>
-					</Item>
-				))}
-			</MemberGrid>
-			<br />
-			<br />
-			<h3>Spring 2021 Project Team Members</h3>
-			<MemberGrid>
-				{members21spring.map(({ id, name, role, start_year, end_year, blurb, image_url, github, url, linkedin }) => (
-					<Item key={id} theme={theme}>
-						<ProfileCard theme={theme}>
+								<ProfileImage src={image_url} alt={name}></ProfileImage>
+								<ProfileCardContents theme={theme}>
+									<Content>
 
+										<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
+										<h4>{role}</h4>
+										<small>{start_year}-{end_year}</small>
 
-							<ProfileCardContents theme={theme}>
-								<Content>
+									</Content>
+								</ProfileCardContents>
+							</ProfileCard>
+						</Item>
+					))}
+				</PersonGrid>
 
-									<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
-									<h4>{role}</h4>
-									<p>{blurb}</p>
+			</Wrapper>
 
-								</Content>
-							</ProfileCardContents>
-						</ProfileCard>
-					</Item>
-				))}
-			</MemberGrid>
-
-		</Wrapper>
-
-	</Layout>
-)};
+		</Layout>
+	)
+};
 export default AllProjects;

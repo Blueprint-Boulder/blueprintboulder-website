@@ -28,6 +28,7 @@ padding-top: 0;
 export function ProfileCardName(props) {
   return <h3 style={{ color: "#0078f8" }}>
     {props.name}
+    <br />
     <ProfileCardWebsite url={props.url} name={props.name} id={props.id}></ProfileCardWebsite>
     <ProfileCardGH github={props.github} name={props.name} id={props.id}></ProfileCardGH>
     <ProfileCardLinkedIn linkedin={props.linkedin} name={props.name} id={props.id}></ProfileCardLinkedIn>

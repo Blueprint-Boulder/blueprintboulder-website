@@ -1,0 +1,134 @@
+[
+    {
+        "id": 16,
+        "name": "Nicholas Henley",
+        "role": "IoE Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 17,
+        "name": "Lilia Garcia",
+        "role": "CIRC Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 18,
+        "name": "Leah Dillard",
+        "role": "CIRC Team - Designer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 19,
+        "name": "Samridhi Shrestha",
+        "role": "V.P. of Design / Co-Team Lead for Girls Inc.",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 1,
+        "name": "Zhouming Sun",
+        "role": "Co-Team Lead for Girls Inc.",
+        "image_url": "/profiles/mingsun.jpg",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": "zhoumingsun"
+    },
+    {
+        "id": 3,
+        "name": "Paige Burns",
+        "role": "Webmaster & Girls Inc. Team -  Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 5,
+        "name": "Dan Liu",
+        "role": "Girls Inc. Team - Developer",
+        "image_url": "/profiles/dan.jpg",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": "dan-liu-b44b1610a"
+    },
+    {
+        "id": 6,
+        "name": "Jaskrit Singh",
+        "role": "Team Lead for Thinking Huts",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 8,
+        "name": "Cathleen Samson",
+        "role": "Thinking Huts - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 10,
+        "name": "Sahand Setareh",
+        "role": "Thinking Huts Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 12,
+        "name": "Lauren Funston",
+        "role": "Safehouse Denver Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    },
+    {
+        "id": 14,
+        "name": "Angel Dong",
+        "role": "Safehouse Denver - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2021",
+        "linkedin": ""
+    }
+]

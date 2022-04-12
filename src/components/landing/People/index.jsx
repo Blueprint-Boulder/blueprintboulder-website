@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
-import {Button, Container} from 'components/common';
+import { Button, Container } from 'components/common';
 import { ProfileCard, ProfileCardContents, ProfileCardName, ProfileImage } from 'components/common/ProfileCard';
-import { Wrapper, LeaderGrid, MemberGrid, Item, Content } from './styles';
+import { Wrapper, PersonGrid, Item, Content } from './styles';
 import leaders from "./leadership.json"
-import members from "./members-21-22.json"
 
 export const People = () => {
     const { theme } = useContext(ThemeContext);
@@ -12,9 +11,8 @@ export const People = () => {
     return (
         <Wrapper as={Container} id="people">
             <h2>People</h2>
-            <h3>Leadership</h3>
-            <LeaderGrid>
-                {leaders.map(({ id, name, role, start_year, end_year, blurb, image_url, github, url, linkedin }) => (
+            <PersonGrid>
+                {leaders.map(({ id, name, role, start_year, end_year, image_url, github, url, linkedin }) => (
                     <Item key={id} theme={theme}>
                         <ProfileCard theme={theme}>
 
@@ -25,7 +23,6 @@ export const People = () => {
 
                                     <ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
                                     <h4>{role}</h4>
-                                    <p>{blurb}</p>
                                     <small>{start_year}-{end_year}</small>
 
                                 </Content>
@@ -33,10 +30,10 @@ export const People = () => {
                         </ProfileCard>
                     </Item>
                 ))}
-            </LeaderGrid>
+            </PersonGrid>
             <Button>
-                <a href="/people"  style={{color: "white"}}>
-                    Meet the rest of our team!
+                <a href="/people" style={{ color: "white" }}>
+                    Meet all of Blueprint!
                 </a>
             </Button>
         </Wrapper>

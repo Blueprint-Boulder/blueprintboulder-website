@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "name": "James Tran",
+        "role": "Foster Source Team - Designer",
+        "image_url": "/profiles/james.JPG",
+        "url": "https://sites.google.com/view/james-tran/home",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "Present",
+        "linkedin": "james-tran-h267"
+    },
+    {
+        "id": 2,
+        "name": "Trevor Ward",
+        "role": "Foster Source Team - Developer",
+        "image_url": "/profiles/trevorw.jpeg",
+        "url": "",
+        "github": "TrevorW-code",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": "trevorward001"
+    },
+    {
+        "id": 3,
+        "name": "Owen Hefler",
+        "role": "Foster Source Team - Developer",
+        "image_url": "/profiles/owen.JPG",
+        "url": "",
+        "github": "OwenHelfer",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": "owenhelfer"
+    },
+    {
+        "id": 4,
+        "name": "Isabell Deak",
+        "role": "Foster Source Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 5,
+        "name": "Lola Keychenko",
+        "role": "Foster Source Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2022",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 6,
+        "name": "Tahira Zafar",
+        "role": "Foster Source Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 7,
+        "name": "Ian Draves",
+        "role": "CIRC Team - Developer",
+        "image_url": "/profiles/iand.jpg",
+        "url": "https://iandraves.github.io/",
+        "github": "iandraves",
+        "start_year": "2022",
+        "end_year": "Present",
+        "linkedin": "iandraves"
+    },
+    {
+        "id": 8,
+        "name": "Filip Nedelkov",
+        "role": "CIRC Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 9,
+        "name": "Ashlynn McGrattan",
+        "role": "CIRC Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 11,
+        "name": "Ranjan Sigdel",
+        "role": "CIRC Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 12,
+        "name": "Shreyas Kadekodi",
+        "role": "IoE Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 13,
+        "name": "Bryce Schumacher",
+        "role": "IoE Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 14,
+        "name": "Matt Moran",
+        "role": "IoE Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 15,
+        "name": "Anjala Katuri",
+        "role": "IoE Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 16,
+        "name": "Diya Ghimire",
+        "role": "IoE Team - Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 17,
+        "name": "Jacob Friedman",
+        "role": "IoE Team - Developer",
+        "image_url": "/profiles/jacobf.jpg",
+        "url": "",
+        "github": "jacobef",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": "jacob-friedman-56428221b"
+    }
+]
