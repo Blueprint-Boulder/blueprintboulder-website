@@ -13,24 +13,24 @@
     {
         "id": 2,
         "name": "Trevor Ward",
-        "role": "Developer",
-        "image_url": "",
+        "role": "Foster Source Developer",
+        "image_url": "/profiles/trevorw.jpeg",
         "url": "",
-        "github": "",
+        "github": "TrevorW-code",
         "start_year": "2021",
         "end_year": "Present",
-        "linkedin": ""
+        "linkedin": "trevorward001"
     },
     {
         "id": 3,
         "name": "Owen Hefler",
-        "role": "Developer",
-        "image_url": "",
+        "role": "Foster Source Team Member",
+        "image_url": "/profiles/owen.jpg",
         "url": "",
-        "github": "",
+        "github": "OwenHelfer",
         "start_year": "2021",
         "end_year": "Present",
-        "linkedin": ""
+        "linkedin": "owenhelfer"
     },
     {
         "id": 4,
@@ -68,13 +68,13 @@
     {
         "id": 7,
         "name": "Ian Draves",
-        "role": "Developer",
-        "image_url": "",
-        "url": "",
-        "github": "",
+        "role": "CIRC Team Developer",
+        "image_url": "/profiles/iand.jpg",
+        "url": "https://iandraves.github.io/",
+        "github": "iandraves",
         "start_year": "2022",
         "end_year": "Present",
-        "linkedin": ""
+        "linkedin": "iandraves"
     },
     {
         "id": 8,
@@ -167,12 +167,12 @@
     {
         "id": 17,
         "name": "Jacob Friedman",
-        "role": "Developer",
-        "image_url": "",
+        "role": "Impact on Education Developer",
+        "image_url": "/profiles/jacobf.jpg",
         "url": "",
-        "github": "",
+        "github": "jacobef",
         "start_year": "2021",
         "end_year": "Present",
-        "linkedin": ""
+        "linkedin": "jacob-friedman-56428221b"
     }
 ]

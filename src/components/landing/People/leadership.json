@@ -123,12 +123,12 @@
     {
         "id": 9,
         "name": "Anne Chen",
-        "role": "Team Lead",
+        "role": "Team Lead for CIRC",
         "start_year": "2021",
         "end_year": "Present",
-        "image_url": "",
+        "image_url": "/profiles/annec.jpg",
         "url": "",
         "github": "",
-        "linkedin": ""
+        "linkedin": "anne-chen-021a0b1b6"
     }
 ]
