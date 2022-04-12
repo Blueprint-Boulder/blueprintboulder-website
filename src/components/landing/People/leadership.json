@@ -24,7 +24,7 @@
     {
         "id": 5,
         "name": "Niharika Kunapuli",
-        "role": "V.P. of Outreach / Team Lead",
+        "role": "V.P. of Outreach & Team Lead for IoE",
         "start_year": "2020",
         "end_year": "Present",
         "image_url": "/profiles/niharika.jpeg",
@@ -101,7 +101,7 @@
     {
         "id": 7,
         "name": "Jett Crowson",
-        "role": "Team Lead",
+        "role": "Team Lead for Foster Source",
         "start_year": "2021",
         "end_year": "Present",
         "image_url": "/profiles/jett.jpeg",
@@ -112,7 +112,7 @@
     {
         "id": 8,
         "name": "Satara Kehn",
-        "role": "Team Lead",
+        "role": "Team Lead for IoE",
         "start_year": "2021",
         "end_year": "Present",
         "image_url": "/profiles/satara.jpeg",

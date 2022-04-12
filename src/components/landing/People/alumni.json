@@ -2,7 +2,7 @@
     {
         "id": 16,
         "name": "Nicholas Henley",
-        "role": "Developer",
+        "role": "IoE Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -13,7 +13,7 @@
     {
         "id": 17,
         "name": "Lilia Garcia",
-        "role": "Developer",
+        "role": "CIRC Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -24,7 +24,7 @@
     {
         "id": 18,
         "name": "Leah Dillard",
-        "role": "Designer",
+        "role": "CIRC Team - Designer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -35,7 +35,7 @@
     {
         "id": 19,
         "name": "Samridhi Shrestha",
-        "role": "V.P. of Design / Team Lead",
+        "role": "V.P. of Design / Co-Team Lead for Girls Inc.",
         "image_url": "",
         "url": "",
         "github": "",
@@ -45,19 +45,19 @@
     },
     {
         "id": 1,
-        "name": "MingMing Sun",
-        "role": "Team Lead",
-        "image_url": "",
+        "name": "Zhouming Sun",
+        "role": "Co-Team Lead for Girls Inc.",
+        "image_url": "/profiles/mingsun.jpg",
         "url": "",
         "github": "",
         "start_year": "2020",
         "end_year": "2021",
-        "linkedin": ""
+        "linkedin": "zhoumingsun"
     },
     {
         "id": 3,
         "name": "Paige Burns",
-        "role": "Webmaster / Developer",
+        "role": "Webmaster & Girls Inc. Team -  Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -68,7 +68,7 @@
     {
         "id": 5,
         "name": "Dan Liu",
-        "role": "Developer",
+        "role": "Girls Inc. Team - Developer",
         "image_url": "/profiles/dan.jpg",
         "url": "",
         "github": "",
@@ -79,7 +79,7 @@
     {
         "id": 6,
         "name": "Jaskrit Singh",
-        "role": "Team Lead",
+        "role": "Team Lead for Thinking Huts",
         "image_url": "",
         "url": "",
         "github": "",
@@ -90,7 +90,7 @@
     {
         "id": 8,
         "name": "Cathleen Samson",
-        "role": "Developer",
+        "role": "Thinking Huts - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -101,7 +101,7 @@
     {
         "id": 10,
         "name": "Sahand Setareh",
-        "role": "Developer",
+        "role": "Thinking Huts Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -112,7 +112,7 @@
     {
         "id": 12,
         "name": "Lauren Funston",
-        "role": "Developer",
+        "role": "Safehouse Denver Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -123,7 +123,7 @@
     {
         "id": 14,
         "name": "Angel Dong",
-        "role": "Developer",
+        "role": "Safehouse Denver - Developer",
         "image_url": "",
         "url": "",
         "github": "",

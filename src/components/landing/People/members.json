@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "James Tran",
-        "role": "Designer",
+        "role": "Foster Source Team - Designer",
         "image_url": "/profiles/james.JPG",
         "url": "https://sites.google.com/view/james-tran/home",
         "github": "",
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "name": "Trevor Ward",
-        "role": "Foster Source Developer",
+        "role": "Foster Source Team - Developer",
         "image_url": "/profiles/trevorw.jpeg",
         "url": "",
         "github": "TrevorW-code",
@@ -24,8 +24,8 @@
     {
         "id": 3,
         "name": "Owen Hefler",
-        "role": "Foster Source Team Member",
-        "image_url": "/profiles/owen.jpg",
+        "role": "Foster Source Team - Developer",
+        "image_url": "/profiles/owen.JPG",
         "url": "",
         "github": "OwenHelfer",
         "start_year": "2021",
@@ -35,7 +35,7 @@
     {
         "id": 4,
         "name": "Isabell Deak",
-        "role": "Developer",
+        "role": "Foster Source Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -46,7 +46,7 @@
     {
         "id": 5,
         "name": "Lola Keychenko",
-        "role": "Developer",
+        "role": "Foster Source Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -57,7 +57,7 @@
     {
         "id": 6,
         "name": "Tahira Zafar",
-        "role": "Developer",
+        "role": "Foster Source Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -68,7 +68,7 @@
     {
         "id": 7,
         "name": "Ian Draves",
-        "role": "CIRC Team Developer",
+        "role": "CIRC Team - Developer",
         "image_url": "/profiles/iand.jpg",
         "url": "https://iandraves.github.io/",
         "github": "iandraves",
@@ -79,7 +79,7 @@
     {
         "id": 8,
         "name": "Filip Nedelkov",
-        "role": "Developer",
+        "role": "CIRC Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -90,7 +90,7 @@
     {
         "id": 9,
         "name": "Ashlynn McGrattan",
-        "role": "Developer",
+        "role": "CIRC Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -101,7 +101,7 @@
     {
         "id": 11,
         "name": "Ranjan Sigdel",
-        "role": "Developer",
+        "role": "CIRC Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -112,7 +112,7 @@
     {
         "id": 12,
         "name": "Shreyas Kadekodi",
-        "role": "Developer",
+        "role": "IoE Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -123,7 +123,7 @@
     {
         "id": 13,
         "name": "Bryce Schumacher",
-        "role": "Developer",
+        "role": "IoE Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -134,7 +134,7 @@
     {
         "id": 14,
         "name": "Matt Moran",
-        "role": "Developer",
+        "role": "IoE Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -145,7 +145,7 @@
     {
         "id": 15,
         "name": "Anjala Katuri",
-        "role": "Developer",
+        "role": "IoE Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -156,7 +156,7 @@
     {
         "id": 16,
         "name": "Diya Ghimire",
-        "role": "Developer",
+        "role": "IoE Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -167,7 +167,7 @@
     {
         "id": 17,
         "name": "Jacob Friedman",
-        "role": "Impact on Education Developer",
+        "role": "IoE Team - Developer",
         "image_url": "/profiles/jacobf.jpg",
         "url": "",
         "github": "jacobef",
