@@ -55,13 +55,13 @@ export function ProfileProjects(props){
   if(props!== undefined && props.name !== ""){
     let projectList = [];
     for(let i = 0; i < current.length; i++) {
-      if(current[i].members != undefined && current[i].members.includes(props.name)){
+      if(current[i].members !== undefined && current[i].members.includes(props.name)){
         projectList.push({"name": current[i].name, "img": current[i].image_url});
       }
     }
 
     for(let i = 0; i < past.length; i++) {
-      if(past[i].members != undefined && past[i].members.includes(props.name)){
+      if(past[i].members !== undefined && past[i].members.includes(props.name)){
         projectList.push({"name": past[i].name, "img": past[i].image_url});
       }
     }

@@ -1,7 +1,6 @@
 //Michal Bodzianowski 2021
 import styled from 'styled-components';
 import React from 'react';
-import { Button } from 'components/common';
 import ReactPlayer from 'react-player/lazy';
 import leaders from "../../landing/People/leadership.json";
 import members from "../../landing/People/members.json";
@@ -23,7 +22,7 @@ export function ProjectImage(props) {
 }
 
 export function ProjectVideo(props){
-  if(props !== undefined && props.src != ""){
+  if(props !== undefined && props.src !== ""){
     return <>
     <ReactPlayer
       light={true}
@@ -41,7 +40,7 @@ export function ProjectVideo(props){
 
 
 export function ProjectPersonImg(props){
-  if(props !== undefined && props.src != ""){
+  if(props !== undefined && props.src !== ""){
     return <><img 
                 data-tip={props.alt}
                 src={props.src} alt={props.alt} 
@@ -68,28 +67,28 @@ export function ProjectMembers(props){
       {props.members.map((member_name) => {
         //Search for lead name in leadership.json
         for(let i = 0; i < leaders.length; i++){
-          if(leaders[i].name == member_name){
+          if(leaders[i].name === member_name){
             //Match!
             return <ProjectPersonImg key={member_name} 
-            src={leaders[i].image_url == "" ? "/profiles/empty.png" : leaders[i].image_url} 
+            src={leaders[i].image_url === "" ? "/profiles/empty.png" : leaders[i].image_url} 
             alt={member_name}></ProjectPersonImg>
           }
         }
 
         for(let i = 0; i < members.length; i++){
-          if(members[i].name == member_name){
+          if(members[i].name === member_name){
             //Match!
             return <ProjectPersonImg key={member_name} 
-            src={members[i].image_url == "" ? "/profiles/empty.png" : members[i].image_url} 
+            src={members[i].image_url === "" ? "/profiles/empty.png" : members[i].image_url} 
             alt={member_name}></ProjectPersonImg>
           }
         }
 
         for(let i = 0; i < alumni.length; i++){
-          if(alumni[i].name == member_name){
+          if(alumni[i].name === member_name){
             //Match!
             return <ProjectPersonImg key={member_name} 
-            src={alumni[i].image_url == "" ? "/profiles/empty.png" : alumni[i].image_url} 
+            src={alumni[i].image_url === "" ? "/profiles/empty.png" : alumni[i].image_url} 
             alt={member_name}></ProjectPersonImg>
           }
         }
