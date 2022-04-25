@@ -1,8 +1,10 @@
 //Michal Bodzianowski 2021
 import styled from 'styled-components';
-import React from 'react';
+import React, {useContext} from 'react';
 import current from "../../landing/Projects/current.json";
 import past from "../../landing/Projects/past.json";
+import { ThemeContext } from '../../../providers/ThemeProvider.jsx';
+
 
 export const ProfileCard = styled.div`
   padding: 0rem;
@@ -11,19 +13,22 @@ export const ProfileCard = styled.div`
 `;
 
 function ProfileProjectsItem(props){
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
   return <>
     <div
       style={{
         display: 'flex',
         flexDirection: 'column',
-        background: '#fff',
-        borderColor: '#0078f8',
+        background:   '#fff',
+        borderColor: theme === "light" ? "#0078f8" : "#001a36",
         borderStyle: "solid",
         borderWidth: "1px",
         color: '#0078f8',
         borderRadius: "10px",
         alignItems: "center", justifyContent: "center",
-        width: "fit-content"
+        width: "fit-content",
+        height: "100%",
       }}>
         <div style={{flex: 1, 
             maxHeight: "2rem",
@@ -39,9 +44,13 @@ function ProfileProjectsItem(props){
             width: "100%"
            
           }}
+          //rgb(24, 23, 23)
           src={props.data.img} alt={props.data.name}></img>
         </div>
-        <div style={{paddingTop: "0.2rem", paddingBottom: "0.2rem", width: "100%", borderBottomLeftRadius: "8.5px", borderBottomRightRadius: "8.5px", backgroundColor: "#0078f8", color:"#fff", flex: 1, fontSize: "0.5rem", textAlign: 'center', alignItems: "center", justifyContent: "center", display:"flex"}}>
+        <div style={{paddingTop: "0.1rem", paddingBottom: "0.1rem", width: "100%",
+        borderBottomLeftRadius: "7px", borderBottomRightRadius: "7px", 
+        backgroundColor: theme === "light" ? "#0078f8" : "#002752", 
+        color:"#fff", flex: 1, fontSize: "0.5rem", textAlign: 'center', alignItems: "center", justifyContent: "center", display:"flex"}}>
            <div style={{
              paddingLeft: "0.2rem",
              paddingRight: "0.2rem"
@@ -74,7 +83,7 @@ export function ProfileProjects(props){
         gridTemplateColumns: 'repeat('+projectList.length+', 1fr)',
         gap: '0.3rem',
         justifyContent: 'space-evenly',
-        justifyItems: 'center',
+        justifyItems: 'left',
         alignContent: 'space-evenly',
         alignItems: 'center',
         marginBottom: '1rem'
