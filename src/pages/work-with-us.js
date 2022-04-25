@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { Button, Layout, Seo } from "components/common";
-import { Container, Card, TitleWrap } from 'components/common';
+import {  Layout, Seo } from "components/common";
+import { Container} from 'components/common';
 import { ThemeContext } from 'providers/ThemeProvider';
 import {WorkWelcome} from "../components/landing";
-import { Wrapper, Grid, Item, Content, Stats } from '../components/landing/Projects/styles';
+import { Wrapper, Grid, Item } from '../components/landing/Projects/styles';
 import workprocess1 from '../assets/illustrations/workprocess1.png';
 import workprocess2 from '../assets/illustrations/workprocess2.png';
 import workprocess3 from '../assets/illustrations/workprocess3.png';

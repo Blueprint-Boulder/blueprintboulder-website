@@ -130,5 +130,16 @@
         "url": "",
         "github": "",
         "linkedin": "anne-chen-021a0b1b6"
+    },
+    {
+        "id": 10,
+        "name": "Heather Fleming",
+        "role": "2022-2023 Team Lead",
+        "start_year": "2022",
+        "end_year": "Present",
+        "image_url": "/profiles/heatherf.JPG",
+        "url": "",
+        "github": "",
+        "linkedin": "heather-fleming-02279a194"
     }
 ]

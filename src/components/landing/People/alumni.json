@@ -130,5 +130,16 @@
         "start_year": "2020",
         "end_year": "2021",
         "linkedin": ""
+    },
+    {
+        "id": 15,
+        "name": "Elly Landrum",
+        "role": "Girls Inc - Member",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2020",
+        "linkedin": ""
     }
 ]

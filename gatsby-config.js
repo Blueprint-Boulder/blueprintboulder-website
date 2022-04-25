@@ -58,5 +58,7 @@ module.exports = {
 			},
 		},
 		"gatsby-plugin-offline",
+		"react-player",
+		"react-tooltip"
 	],
 };

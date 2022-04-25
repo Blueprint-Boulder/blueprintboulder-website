@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Header } from 'components/theme';
-import { Container, Button } from 'components/common';
+import { Container } from 'components/common';
 import banner from 'assets/illustrations/team-banner.png';
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
 import { Helmet } from 'react-helmet';

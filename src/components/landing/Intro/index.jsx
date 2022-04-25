@@ -45,14 +45,14 @@ export const Intro = () => {
         </Details>
         <Thumbnail>
           
-            {theme == "dark" &&
+            {theme === "dark" &&
             <picture>
               <source media='(min-width:2500px)' srcSet={devWhite}></source>
               <source media='(min-width:1450px)' srcSet={devBlack}></source>
               <img src={devWhite} alt="We're Blueprint Boulder, and we make tech happen for social good." />
             </picture>
             }
-            {theme == "light" && 
+            {theme === "light" && 
               <img src={devBlack} alt="We're Blueprint Boulder, and we make tech happen for social good." />
             }
           
