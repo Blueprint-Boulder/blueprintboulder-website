@@ -1,12 +1,96 @@
 //Michal Bodzianowski 2021
 import styled from 'styled-components';
 import React from 'react';
+import current from "../../landing/Projects/current.json";
+import past from "../../landing/Projects/past.json";
 
 export const ProfileCard = styled.div`
   padding: 0rem;
   background: ${({ theme }) => (theme === 'light' ? '#fff' : '#181717')};
   height: 100%;
 `;
+
+function ProfileProjectsItem(props){
+  return <>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        background: '#fff',
+        borderColor: '#0078f8',
+        borderStyle: "solid",
+        borderWidth: "1px",
+        color: '#0078f8',
+        borderRadius: "10px",
+        alignItems: "center", justifyContent: "center",
+        width: "fit-content"
+      }}>
+        <div style={{flex: 1, 
+            maxHeight: "2rem",
+            overflow: "hidden",  alignItems: "center", justifyContent: "center"}}>
+          <img 
+          style={{
+            borderTopLeftRadius: "8.5px",
+            borderTopRightRadius: "8.5px",
+
+            marginBottom: 0,
+            objectFit:"cover",
+            height: "2rem",
+            width: "100%"
+           
+          }}
+          src={props.data.img} alt={props.data.name}></img>
+        </div>
+        <div style={{paddingTop: "0.2rem", paddingBottom: "0.2rem", width: "100%", borderBottomLeftRadius: "8.5px", borderBottomRightRadius: "8.5px", backgroundColor: "#0078f8", color:"#fff", flex: 1, fontSize: "0.5rem", textAlign: 'center', alignItems: "center", justifyContent: "center", display:"flex"}}>
+           <div style={{
+             paddingLeft: "0.2rem",
+             paddingRight: "0.2rem"
+           }}>{props.data.name}</div>
+        </div>
+    </div>
+  </>
+}
+
+export function ProfileProjects(props){
+  if(props!== undefined && props.name !== ""){
+    let projectList = [];
+    for(let i = 0; i < current.length; i++) {
+      if(current[i].members != undefined && current[i].members.includes(props.name)){
+        projectList.push({"name": current[i].name, "img": current[i].image_url});
+      }
+    }
+
+    for(let i = 0; i < past.length; i++) {
+      if(past[i].members != undefined && past[i].members.includes(props.name)){
+        projectList.push({"name": past[i].name, "img": past[i].image_url});
+      }
+    }
+
+    if(projectList.length > 0){
+      return <>
+        <h6>Projects</h6>
+        <div style={{
+        display: "grid",
+        gridTemplateColumns: 'repeat('+projectList.length+', 1fr)',
+        gap: '0.3rem',
+        justifyContent: 'space-evenly',
+        justifyItems: 'center',
+        alignContent: 'space-evenly',
+        alignItems: 'center',
+        marginBottom: '1rem'
+      }}>
+        {projectList.map((proj) => {
+          return <ProfileProjectsItem data={proj}></ProfileProjectsItem>
+        })}
+        </div>
+      </>
+    }else{
+      return <></>
+    }
+  }else{
+    return <></>
+  }
+}
 
 export function ProfileImage(props) {
   if (props.src !== undefined && props.src !== "") {

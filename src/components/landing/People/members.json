@@ -91,12 +91,12 @@
         "id": 9,
         "name": "Ashlynn McGrattan",
         "role": "CIRC Team - Developer",
-        "image_url": "",
+        "image_url": "/profiles/ashlynnm.JPG",
         "url": "",
-        "github": "",
+        "github": "asmc8098",
         "start_year": "2020",
         "end_year": "Present",
-        "linkedin": ""
+        "linkedin": "ashlynnmcgrattan"
     },
     {
         "id": 11,
@@ -112,7 +112,7 @@
     {
         "id": 12,
         "name": "Shreyas Kadekodi",
-        "role": "IoE Team - Developer",
+        "role": "Anonymous Apps - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -123,7 +123,7 @@
     {
         "id": 13,
         "name": "Bryce Schumacher",
-        "role": "IoE Team - Developer",
+        "role": "Anonymous Apps - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -134,18 +134,18 @@
     {
         "id": 14,
         "name": "Matt Moran",
-        "role": "IoE Team - Developer",
-        "image_url": "",
+        "role": "Anonymous Apps - Developer",
+        "image_url": "/profiles/mattm.JPG",
         "url": "",
-        "github": "",
+        "github": "MattEMoran",
         "start_year": "2021",
         "end_year": "Present",
-        "linkedin": ""
+        "linkedin": "matthew-m-20980a138"
     },
     {
         "id": 15,
         "name": "Anjala Katuri",
-        "role": "IoE Team - Developer",
+        "role": "Anonymous Apps - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -156,7 +156,7 @@
     {
         "id": 16,
         "name": "Diya Ghimire",
-        "role": "IoE Team - Developer",
+        "role": "Anonymous Apps - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -167,7 +167,7 @@
     {
         "id": 17,
         "name": "Jacob Friedman",
-        "role": "IoE Team - Developer",
+        "role": "Anonymous Apps - Developer",
         "image_url": "/profiles/jacobf.jpg",
         "url": "",
         "github": "jacobef",

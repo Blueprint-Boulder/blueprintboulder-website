@@ -1,6 +1,20 @@
 [
     {
         "id": 1,
+        "name": "Impact on Education",
+        "session": "Fall 2021-March 2021",
+        "tldr": "Scholarship Portal",
+        "description": "To make scholarship/grant application reviews fair in the Boulder Valley School District, all applicants' identifying information is removed before the review process. However, this is currently done manually, which is extremely time consuming. Blueprint's scholarship portal will use natural language processing to automate the redaction process, in order to efficiently continue this ethical practice.",
+        "github": "blueprintboulder/f21s22-impact-on-education",
+        "url": "https://www.impactoneducation.org/",
+        "image_url": "/nonprofit_logos/impact_on_education.png",
+        "video_url":"",
+        "members": ["Satara Kehn", "Niharika Kunapuli","Shreyas Kadekodi", "Bryce Schumacher", 
+            "Matt Moran", "Anjala Katuri","Diya Ghimire", "Jacob Friedman",
+            "Nicholas Henley"]
+    },
+    {
+        "id": 2,
         "name": "Thinking Huts",
         "session": "Spring 2021",
         "tldr": "Web Scrapper to find Madagascan Suppliers",
@@ -8,10 +22,12 @@
         "github": "blueprintboulder/s21-thinking-huts",
         "url": "https://www.thinkinghuts.org/",
         "live_project_url": "https://github.com/blueprintboulder/s21-thinking-huts/blob/main/Thinking%20Huts%20Documentation.pdf",
-        "image_url": "/nonprofit_logos/thinking_huts.png"
+        "image_url": "/nonprofit_logos/thinking_huts.png",
+        "video_url":"",
+        "members":["Jaskrit Singh", "Huilin Han", "Cathleen Samson", "Isabell Deak", "Sahand Setareh"]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Girls Inc Metro Denver",
         "session": "Spring 2021",
         "tldr": "Gamified Learning Platform",
@@ -19,16 +35,18 @@
         "github": "blueprintboulder/s21-girls-inc",
         "url": "https://www.girlsincdenver.org/",
         "live_project_url": "https://www.girlsincdenver.org/bb-girls_inc_game/",
-        "image_url": "/nonprofit_logos/girls_inc.jpg"
+        "image_url": "/nonprofit_logos/girls_inc.jpg",
+        "members": ["Zhouming Sun", "Samridhi Shrestha", "James Tran", "Paige Burns", "Dan Liu", "Elly Landrum"]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Safehouse Denver",
         "session": "Spring 2021",
         "tldr": "Apricot Database Redesign and Resources",
         "description": "Safehouse Denver's client database had become uncharted territory over the past few years: none of the staff were able to maintain it, and it was in need of a overhaul. Blueprint's team created a database redesign plan and instructional videos about how to navigate Apricot databases in order to improve Safehouse Denver's data insight and technical sustainability.",
         "url": "https://safehouse-denver.org/",
         "live_project_url": "",
-        "image_url": "/nonprofit_logos/safehouse_denver.jpeg"
+        "image_url": "/nonprofit_logos/safehouse_denver.jpeg",
+        "members": ["Niharika Kunapuli", "Lauren Funston", "Anushka Kathait", "Angel Dong", "Ashlynn McGrattan"]
     }
 ]

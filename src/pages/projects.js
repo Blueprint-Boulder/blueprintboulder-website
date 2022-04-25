@@ -3,7 +3,7 @@ import { Layout, Seo, Container, Button } from "components/common";
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Wrapper, Grid, Item, Content } from '../components/landing/Projects/styles';
 import { ProjectsWelcome } from "../components/landing";
-import { ProjectCard, ProjectCardContents, ProjectImage, ProjectCardName } from 'components/common/ProjectCard';
+import { ProjectCard, ProjectCardContents, ProjectImage, ProjectCardName, ProjectVideo, ProjectMembers } from 'components/common/ProjectCard';
 import current from "../components/landing/Projects/current.json"
 import past from "../components/landing/Projects/past.json"
 
@@ -18,20 +18,23 @@ const AllProjects = () => {
 				{/* TODO: bug - always in dark mode? */}
 				<h2>Current Projects</h2>
 				<Grid>
-					{current.map(({ id, name, session, tldr, description, image_url, github, url }) => (
+					{current.map(({ id, name, session, tldr, description, image_url, github, url, video_url, members}) => (
 						<Item key={id} theme={theme}>
 							<ProjectCard theme={theme}>
 
-
-								<ProjectImage src={image_url} alt={name}></ProjectImage>
+								{video_url ? 
+									<ProjectVideo src={video_url}></ProjectVideo>
+								:
+									<ProjectImage src={image_url} alt={name}></ProjectImage>
+								}
 								<ProjectCardContents>
 									<Content>
 
 										<ProjectCardName github={github} name={name} id={id} url={url}></ProjectCardName>
 										<h4>{tldr}</h4>
 										<p>{description}</p>
+										<ProjectMembers members={members}></ProjectMembers>
 										<small>{session}</small>
-
 									</Content>
 								</ProjectCardContents>
 							</ProjectCard>
@@ -43,20 +46,24 @@ const AllProjects = () => {
 				<h2>Past Projects</h2>
 				<Grid>
 
-					{past.map(({ id, name, session, tldr, description, image_url, github, url, live_project_url }) => (
+					{past.map(({ id, name, session, tldr, description, image_url, github, url, live_project_url, video_url, members }) => (
 						<Item key={id} theme={theme}>
 							<ProjectCard theme={theme}>
 
 
-								<ProjectImage src={image_url} alt={name}></ProjectImage>
+								{video_url ? 
+									<ProjectVideo src={video_url}></ProjectVideo>
+								:
+									<ProjectImage src={image_url} alt={name}></ProjectImage>
+								}
 								<ProjectCardContents>
 									<Content>
 
 										<ProjectCardName github={github} name={name} id={id} url={url}></ProjectCardName>
 										<h4>{tldr}</h4>
 										<p>{description}</p>
+										<ProjectMembers members={members}></ProjectMembers>
 										<small>{session}</small>
-
 										<br />
 										<br />
 										{/* If no live preview, don't render button */}

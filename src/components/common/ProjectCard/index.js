@@ -2,6 +2,11 @@
 import styled from 'styled-components';
 import React from 'react';
 import { Button } from 'components/common';
+import ReactPlayer from 'react-player/lazy';
+import leaders from "../../landing/People/leadership.json";
+import members from "../../landing/People/members.json";
+import alumni from "../../landing/People/alumni.json";
+import ReactTooltip from 'react-tooltip';
 
 export const ProjectCard = styled.div`
   padding: 0rem;
@@ -13,7 +18,88 @@ export function ProjectImage(props) {
   if (props.src !== undefined && props.src !== "") {
     return <img src={props.src} alt={props.alt} style={{ 'margin-bottom': 0, 'width': "100%" }}></img >;
   } else {
-    return <img src="/nonprofit_logos/empty.png" alt="Empty" style={{ 'margin-bottom': 0, 'width': "100%" }}></img >;
+    return <img src="/nonprofit_logos/empty.png" alt="Empty" style={{ 'marginBottom': 0, 'width': "100%" }}></img >;
+  }
+}
+
+export function ProjectVideo(props){
+  if(props !== undefined && props.src != ""){
+    return <>
+    <ReactPlayer
+      light={true}
+      controls={true}
+      width={"100%"}
+      height={"10rem"}
+     url={props.src}>
+    </ReactPlayer>
+    <div style={{textAlign: "center", fontStyle: "italic", width: "100%", fontSize:"0.75rem", color:"#a9c1db"}}>Project Showcase Video</div>
+    </>
+  }else{
+    return <></>
+  }
+}
+
+
+export function ProjectPersonImg(props){
+  if(props !== undefined && props.src != ""){
+    return <><img 
+                data-tip={props.alt}
+                src={props.src} alt={props.alt} 
+                style={{borderRadius:"25%", marginBottom:"0", maxHeight:"2rem"}}></img><ReactTooltip /></>
+  }else{
+    return <></>
+  }
+}
+
+export function ProjectMembers(props){
+  if(props!== undefined && props.members){
+    return <>
+      <h4 style={{marginTop:"1rem"}}>Members</h4>
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: 'repeat('+(props.members.length > 7 ? Math.ceil(props.members.length / 2) : props.members.length)+', 1fr)',
+        gap: '0.3rem',
+        justifyContent: 'space-evenly',
+        justifyItems: 'center',
+        alignContent: 'space-evenly',
+        alignItems: 'center',
+        marginBottom: '1rem'
+      }}>
+      {props.members.map((member_name) => {
+        //Search for lead name in leadership.json
+        for(let i = 0; i < leaders.length; i++){
+          if(leaders[i].name == member_name){
+            //Match!
+            return <ProjectPersonImg key={member_name} 
+            src={leaders[i].image_url == "" ? "/profiles/empty.png" : leaders[i].image_url} 
+            alt={member_name}></ProjectPersonImg>
+          }
+        }
+
+        for(let i = 0; i < members.length; i++){
+          if(members[i].name == member_name){
+            //Match!
+            return <ProjectPersonImg key={member_name} 
+            src={members[i].image_url == "" ? "/profiles/empty.png" : members[i].image_url} 
+            alt={member_name}></ProjectPersonImg>
+          }
+        }
+
+        for(let i = 0; i < alumni.length; i++){
+          if(alumni[i].name == member_name){
+            //Match!
+            return <ProjectPersonImg key={member_name} 
+            src={alumni[i].image_url == "" ? "/profiles/empty.png" : alumni[i].image_url} 
+            alt={member_name}></ProjectPersonImg>
+          }
+        }
+
+        return <ProjectPersonImg key={member_name} src={"/empty/member.png"} alt={member_name}></ProjectPersonImg>;
+      })}
+      </div>
+    </>
+  }else{
+    return <></>
   }
 }
 

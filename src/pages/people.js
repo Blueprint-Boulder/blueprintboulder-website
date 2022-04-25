@@ -4,7 +4,7 @@ import { Container } from 'components/common';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { PeopleWelcome } from "../components/landing";
 import { Wrapper, PersonGrid, Item, Content } from '../components/landing/People/styles';
-import { ProfileCard, ProfileCardContents, ProfileCardName, ProfileImage } from 'components/common/ProfileCard';
+import { ProfileCard, ProfileCardContents, ProfileCardName, ProfileImage, ProfileProjects } from 'components/common/ProfileCard';
 import leaders from "../components/landing/People/leadership.json"
 import members from "../components/landing/People/members.json"
 import alumni from "../components/landing/People/alumni.json"
@@ -29,6 +29,7 @@ const AllProjects = () => {
 
 										<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
 										<h4>{role}</h4>
+										<ProfileProjects name={name}></ProfileProjects>
 										<small>{start_year}-{end_year}</small>
 
 									</Content>
@@ -46,6 +47,7 @@ const AllProjects = () => {
 
 										<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
 										<h4>{role}</h4>
+										<ProfileProjects name={name}></ProfileProjects>
 										<small>{start_year}-{end_year}</small>
 
 									</Content>
@@ -68,6 +70,7 @@ const AllProjects = () => {
 
 										<ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
 										<h4>{role}</h4>
+										<ProfileProjects name={name}></ProfileProjects>
 										<small>{start_year}-{end_year}</small>
 
 									</Content>
