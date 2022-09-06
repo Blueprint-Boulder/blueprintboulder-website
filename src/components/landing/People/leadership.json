@@ -1,41 +1,9 @@
 [
-    {
-        "id": 1,
-        "name": "Michelle Tran",
-        "role": "President / Co-Founder",
-        "start_year": "2020",
-        "end_year": "Present",
-        "github": "Moppit",
-        "url": "http://michelletran.me/",
-        "linkedin": "michelletran02",
-        "image_url": "/profiles/michelle.png"
-    },
-    {
-        "id": 0,
-        "name": "Michal Bodzianowski",
-        "role": "V.P. of Technology",
-        "start_year": "2020",
-        "end_year": "Present",
-        "github": "ItsMichal",
-        "url": "https://michal.us",
-        "linkedin": "mbodzianowski",
-        "image_url": "/profiles/michal.png"
-    },
-    {
-        "id": 5,
-        "name": "Niharika Kunapuli",
-        "role": "V.P. of Outreach & Team Lead for IoE",
-        "start_year": "2020",
-        "end_year": "Present",
-        "image_url": "/profiles/niharika.jpeg",
-        "url": "",
-        "github": "",
-        "linkedin": "niharika-kunapuli-01626117a"
-    },
+    
     {
         "id": 6,
         "name": "Anushka Kathait",
-        "role": "V.P. of Nonprofit Relations",
+        "role": "President / Treasurer",
         "start_year": "2020",
         "end_year": "Present",
         "image_url": "/profiles/anushka.jpeg",
@@ -44,64 +12,20 @@
         "linkedin": "anushkakathait"
     },
     {
-        "id": 2,
-        "name": "Yvonne Liu",
-        "role": "Treasurer / Co-Founder",
+        "id": 0,
+        "name": "Michal Bodzianowski",
+        "role": "Vice President / Webmaster",
         "start_year": "2020",
         "end_year": "Present",
-        "image_url": "/profiles/yvonne.png",
-        "url": "",
-        "github": "",
-        "linkedin": "yvonne-liu-44b038173"
-    },
-    {
-        "id": 3,
-        "name": "Oceane Andreis",
-        "role": "Social Media Coordinator",
-        "start_year": "2020",
-        "end_year": "Present",
-        "image_url": "/profiles/oceane.jpeg",
-        "url": "https://oceanestars.github.io/",
-        "github": "oceanestars",
-        "linkedin": "oceane-andreis"
-    },
-    {
-        "id": 4,
-        "name": "Huilin Han",
-        "role": "Culture Coordinator / Co-Founder",
-        "start_year": "2020",
-        "end_year": "Present",
-        "image_url": "/profiles/huilin.jpeg",
-        "url": "",
-        "github": "",
-        "linkedin": "huilin-han-a93468157"
-    },
-    {
-        "id": 10,
-        "name": "Jasey Chanders",
-        "role": "Nonprofit Coordinator",
-        "start_year": "2021",
-        "end_year": "Present",
-        "image_url": "/profiles/jasey.png",
-        "url": "jaseychanders.com",
-        "github": "jaseychanders",
-        "linkedin": "jasey-chanders-7719511bb"
-    },
-    {
-        "id": 11,
-        "name": "Race Mouty",
-        "role": "Nonprofit Coordinator",
-        "start_year": "2021",
-        "end_year": "Present",
-        "image_url": "",
-        "url": "",
-        "github": "",
-        "linkedin": ""
+        "github": "ItsMichal",
+        "url": "https://michal.us",
+        "linkedin": "mbodzianowski",
+        "image_url": "/profiles/michal.png"
     },
     {
         "id": 7,
         "name": "Jett Crowson",
-        "role": "Team Lead for Foster Source",
+        "role": "VP of Projects",
         "start_year": "2021",
         "end_year": "Present",
         "image_url": "/profiles/jett.jpeg",
@@ -110,27 +34,64 @@
         "linkedin": "jettcrowson"
     },
     {
-        "id": 8,
-        "name": "Satara Kehn",
-        "role": "Team Lead for IoE",
-        "start_year": "2021",
+        "id": 1,
+        "name": "Michelle Tran",
+        "role": "VP of Outreach / Co-Founder",
+        "start_year": "2020",
         "end_year": "Present",
-        "image_url": "/profiles/satara.jpeg",
+        "github": "Moppit",
+        "url": "http://michelletran.me/",
+        "linkedin": "michelletran02",
+        "image_url": "/profiles/michelle.png"
+    },
+    
+    {
+        "id": 4,
+        "name": "Huilin Han",
+        "role": "VP of Culture / Co-Founder",
+        "start_year": "2020",
+        "end_year": "Present",
+        "image_url": "/profiles/huilin.jpeg",
         "url": "",
         "github": "",
-        "linkedin": "satarakehn"
+        "linkedin": "huilin-han-a93468157"
     },
     {
-        "id": 9,
-        "name": "Anne Chen",
-        "role": "Team Lead for CIRC",
+        "id": 202301,
+        "name": "Judy Chen",
+        "role": "Social Media Coordinator",
+        "start_year": "2022",
+        "end_year": "Present",
+        "image_url":"",
+        "url":"",
+        "github":"",
+        "linkedin":""
+    },
+    {
+        "id":202302,
+        "name": "Erika Bailon",
+        "role": "2022-2023 Team Lead",
+        "start_year": "2022",
+        "end_year": "Present",
+        "image_url":"",
+        "url":"",
+        "github":"",
+        "linkedin":""
+    },
+    {
+        "id": 10,
+        "name": "Jasey Chanders",
+        "role": "2022-2023 Team Lead",
         "start_year": "2021",
         "end_year": "Present",
-        "image_url": "/profiles/annec.jpg",
-        "url": "",
-        "github": "",
-        "linkedin": "anne-chen-021a0b1b6"
+        "image_url": "/profiles/jasey.png",
+        "url": "jaseychanders.com",
+        "github": "jaseychanders",
+        "linkedin": "jasey-chanders-7719511bb"
     },
+    
+    
+    
     {
         "id": 10,
         "name": "Heather Fleming",
@@ -141,5 +102,16 @@
         "url": "",
         "github": "",
         "linkedin": "heather-fleming-02279a194"
+    },
+    {
+        "id": 11,
+        "name": "Jacob Friedman",
+        "role": "2022-2023 Team Lead",
+        "image_url": "/profiles/jacobf.jpg",
+        "url": "",
+        "github": "jacobef",
+        "start_year": "2021",
+        "end_year": "Present",
+        "linkedin": "jacob-friedman-56428221b"
     }
 ]

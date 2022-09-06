@@ -22,7 +22,7 @@ export const People = () => {
                                 <Content>
 
                                     <ProfileCardName github={github} name={name} id={id} url={url} linkedin={linkedin}></ProfileCardName>
-                                    <h4>{role}</h4>
+                                    <h4 style={{color: (theme === "dark" ? '#73b7ff' : '#034387'), fontWeight: '500'}}>{role}</h4>
                                     <small>{start_year}-{end_year}</small>
 
                                 </Content>

@@ -4,6 +4,23 @@ export const Wrapper = styled.div`
   padding: 2rem 0;
 `;
 
+export const PersonGridLite = styled.div`
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 8fr;
+  gap: 1.2rem 1.2rem;
+
+  @media (max-width: 1680px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+  margin-bottom: 3rem;
+`;
+
 export const PersonGrid = styled.div`
   display: grid;
   align-items: center;

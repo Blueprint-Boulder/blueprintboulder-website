@@ -1,8 +1,239 @@
 [
     {
+        "id": 49,
+        "name": "Anne Chen",
+        "role": "Ex- Team Lead for CIRC",
+        "start_year": "2021",
+        "end_year": "Present",
+        "image_url": "/profiles/annec.jpg",
+        "url": "",
+        "github": "",
+        "linkedin": "anne-chen-021a0b1b6"
+    },
+    {
+        "id": 45,
+        "name": "Niharika Kunapuli",
+        "role": "Ex- V.P. of Outreach & Team Lead for IoE",
+        "start_year": "2020",
+        "end_year": "2022",
+        "image_url": "/profiles/niharika.jpeg",
+        "url": "",
+        "github": "",
+        "linkedin": "niharika-kunapuli-01626117a"
+    },
+    {
+        "id": 22,
+        "name": "Race Mouty",
+        "role": "Ex-Nonprofit Coordinator",
+        "start_year": "2021",
+        "end_year": "2022",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 21,
+        "name": "Oceane Andreis",
+        "role": "Ex-Social Media Coordinator",
+        "start_year": "2020",
+        "end_year": "2022",
+        "image_url": "/profiles/oceane.jpeg",
+        "url": "https://oceanestars.github.io/",
+        "github": "oceanestars",
+        "linkedin": "oceane-andreis"
+    },
+    {
+        "id": 20,
+        "name": "Yvonne Liu",
+        "role": "Ex-Treasurer / Co-Founder",
+        "start_year": "2020",
+        "end_year": "2022",
+        "image_url": "/profiles/yvonne.png",
+        "url": "",
+        "github": "",
+        "linkedin": "yvonne-liu-44b038173"
+    },
+    {
+        "id": 8,
+        "name": "Satara Kehn",
+        "role": "Ex- Team Lead for IoE",
+        "start_year": "2021",
+        "end_year": "Present",
+        "image_url": "/profiles/satara.jpeg",
+        "url": "",
+        "github": "",
+        "linkedin": "satarakehn"
+    },
+    {
+        "id": 31,
+        "name": "James Tran",
+        "role": "Ex- Designer",
+        "image_url": "/profiles/james.JPG",
+        "url": "https://sites.google.com/view/james-tran/home",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2022",
+        "linkedin": "james-tran-h267"
+    },
+    {
+        "id": 32,
+        "name": "Trevor Ward",
+        "role": "Ex- Developer",
+        "image_url": "/profiles/trevorw.jpeg",
+        "url": "",
+        "github": "TrevorW-code",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": "trevorward001"
+    },
+    {
+        "id": 33,
+        "name": "Owen Helfer",
+        "role": "Ex- Developer",
+        "image_url": "/profiles/owen.JPG",
+        "url": "",
+        "github": "OwenHelfer",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": "owenhelfer"
+    },
+    {
+        "id": 34,
+        "name": "Isabell Deak",
+        "role": "Ex- Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2020",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 35,
+        "name": "Lola Keychenko",
+        "role": "Ex- Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2022",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 36,
+        "name": "Tahira Zafar",
+        "role": "Ex- Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 37,
+        "name": "Ian Draves",
+        "role": "Ex- Developer",
+        "image_url": "/profiles/iand.jpg",
+        "url": "https://iandraves.github.io/",
+        "github": "iandraves",
+        "start_year": "2022",
+        "end_year": "2022",
+        "linkedin": "iandraves"
+    },
+    {
+        "id": 38,
+        "name": "Filip Nedelkov",
+        "role": "Ex- Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 39,
+        "name": "Ashlynn McGrattan",
+        "role": "Ex- Developer",
+        "image_url": "/profiles/ashlynnm.jpg",
+        "url": "",
+        "github": "asmc8098",
+        "start_year": "2020",
+        "end_year": "2022",
+        "linkedin": "ashlynnmcgrattan"
+    },
+    {
+        "id": 41,
+        "name": "Ranjan Sigdel",
+        "role": "Ex- Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 42,
+        "name": "Shreyas Kadekodi",
+        "role": "Ex- Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 43,
+        "name": "Bryce Schumacher",
+        "role": "Ex- Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 44,
+        "name": "Matt Moran",
+        "role": "Ex- Developer",
+        "image_url": "/profiles/mattm.JPG",
+        "url": "",
+        "github": "MattEMoran",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": "matthew-m-20980a138"
+    },
+    {
+        "id": 45,
+        "name": "Anjala Katuri",
+        "role": "Ex- Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
+        "id": 46,
+        "name": "Diya Ghimire",
+        "role": "Ex- Developer",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2021",
+        "end_year": "2022",
+        "linkedin": ""
+    },
+    {
         "id": 16,
         "name": "Nicholas Henley",
-        "role": "IoE Team - Developer",
+        "role": "Ex-IoE Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -13,7 +244,7 @@
     {
         "id": 17,
         "name": "Lilia Garcia",
-        "role": "CIRC Team - Developer",
+        "role": "Ex- Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -24,7 +255,7 @@
     {
         "id": 18,
         "name": "Leah Dillard",
-        "role": "CIRC Team - Designer",
+        "role": "Ex- Designer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -35,7 +266,7 @@
     {
         "id": 19,
         "name": "Samridhi Shrestha",
-        "role": "V.P. of Design / Co-Team Lead for Girls Inc.",
+        "role": "Ex-V.P. of Design / Co-Team Lead for Girls Inc.",
         "image_url": "",
         "url": "",
         "github": "",
@@ -46,7 +277,7 @@
     {
         "id": 1,
         "name": "Zhouming Sun",
-        "role": "Co-Team Lead for Girls Inc.",
+        "role": "Ex-Co-Team Lead for Girls Inc.",
         "image_url": "/profiles/mingsun.jpg",
         "url": "",
         "github": "",
@@ -57,7 +288,7 @@
     {
         "id": 3,
         "name": "Paige Burns",
-        "role": "Webmaster & Girls Inc. Team -  Developer",
+        "role": "Ex-Webmaster & Girls Inc. Team -  Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -68,7 +299,7 @@
     {
         "id": 5,
         "name": "Dan Liu",
-        "role": "Girls Inc. Team - Developer",
+        "role": "Ex-Girls Inc. Team - Developer",
         "image_url": "/profiles/dan.jpg",
         "url": "",
         "github": "",
@@ -79,7 +310,7 @@
     {
         "id": 6,
         "name": "Jaskrit Singh",
-        "role": "Team Lead for Thinking Huts",
+        "role": "Ex-Team Lead for Thinking Huts",
         "image_url": "",
         "url": "",
         "github": "",
@@ -90,7 +321,7 @@
     {
         "id": 8,
         "name": "Cathleen Samson",
-        "role": "Thinking Huts - Developer",
+        "role": "Ex-Thinking Huts - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -101,7 +332,7 @@
     {
         "id": 10,
         "name": "Sahand Setareh",
-        "role": "Thinking Huts Team - Developer",
+        "role": "Ex-Thinking Huts Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -112,7 +343,7 @@
     {
         "id": 12,
         "name": "Lauren Funston",
-        "role": "Safehouse Denver Team - Developer",
+        "role": "Ex-Safehouse Denver Team - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -123,7 +354,7 @@
     {
         "id": 14,
         "name": "Angel Dong",
-        "role": "Safehouse Denver - Developer",
+        "role": "Ex-Safehouse Denver - Developer",
         "image_url": "",
         "url": "",
         "github": "",
@@ -134,7 +365,7 @@
     {
         "id": 15,
         "name": "Elly Landrum",
-        "role": "Girls Inc - Member",
+        "role": "Ex-Girls Inc - Member",
         "image_url": "",
         "url": "",
         "github": "",

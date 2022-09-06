@@ -16,21 +16,23 @@ export const Skills = () => {
         <Details theme={theme}>
           <h1>Are you a CU affiliate?</h1>
           <p>
-            Blueprint Boulder is open and looking for CU students of any skill-level, who are Interested
-            in design, devlopment, or relations with our non-profit partners. Click below to sign up for our
-            interest form, and we'll be in contact with you!
+            Blueprint Boulder is open to CU students of any skill level 
+            who are interested in design, development, or establishing relationships with our non-profit partners. 
+            Click below to sign up for our interest form, and we'll be in contact with you soon!
           </p>
-          <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSf0NldwrKU2F5ypmepXFs26uIfvSAx7nSFEV-mIjQ53s1HeAg/viewform?usp=sf_link">
+          <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScjNt6MGpaOgDQTfJBWf7rjX8b4ouTWBp-he5Pt_ifVKwKTdA/viewform?usp=sf_link">
             <Button>
-              Interest Form 2021
+              Interest Form 2022
             </Button>
           </a>
         </Details>
         <Details theme={theme}>
           <h1>Are you a Non-profit?</h1>
           <p>
-            Blueprint Boulder accepts non-profit applications in January and February for projects during the following school year. Projects are vetted by our team,
-            and finalists will have their project built starting in the Fall, with estimated completion by the following Spring.
+            We accept meeting requests from nonprofits in January and February 
+            for projects during the following academic year. Our team will collaborate 
+            with you to plan your software project, and finalists will have their project
+             built starting in the fall semester, with completion by the end of the spring semester
           </p>
           <Button>
             <a href="/work-with-us"  style={{color: "white"}}>
