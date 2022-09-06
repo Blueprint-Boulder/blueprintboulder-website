@@ -1,5 +1,41 @@
 [
     {
+        "id": 21,
+        "name": "Foster Source",
+        "session": "Fall 2021-April 2022",
+        "tldr": "Respite Matching Website",
+        "description": "Finding temporary childcare (i.e. babysitting, though in the foster care system it is called 'respite') requires meeting strict county guidelines, for good reason. However, this makes it difficult for foster parents to take time off, and often leads to burnout. Blueprint's respite-matching website will allow foster parents to find each other for respite when they need it, which will increase retention rates in the foster care system.",
+        "github": "blueprintboulder/f21s22-foster-source",
+        "url": "https://fostersource.org/",
+        "image_url": "/nonprofit_logos/foster_source.png",
+        "video_url": "https://www.youtube.com/watch?v=1O4gGjK8M38",
+        "members": ["Jett Crowson","James Tran", "Trevor Ward", "Owen Helfer", "Isabell Deak", "Lola Keychenko", "Tahira Zafar"]
+    },
+    {
+        "id": 22,
+        "name": "Colorado Immigrant Rights Coalition",
+        "session": "Fall 2021-April 2022",
+        "tldr": "Hotline Mobile App",
+        "description": "Immigrant communities regularly face hostility and panic outbreaks that can often be alleviated through access to information. Blueprint's hotline app will enable immigrants to know their rights and receive assistance in difficult situations.",
+        "github": "blueprintboulder/f21s22-circ",
+        "url": "https://coloradoimmigrant.org/",
+        "image_url": "/nonprofit_logos/circ.png",
+        "video_url": "https://www.youtube.com/watch?v=Yv2odPoXe8s",
+        "members": ["Anne Chen", "Ian Draves", "Filip Nedelkov", "Ashlynn McGrattan", "Ranjan Sigdel"]
+    },
+    {
+        "id": 23,
+        "name": "Anonymous Applications",
+        "session": "Fall 2021-April 2022",
+        "tldr": "Web-based Identity Redactor and Form Processor",
+        "description": "Anonymous Applications is an In-house Blueprint Team for 2021-2022. Their open-source application removes identifying information from PDFs and other files using a convenient online interface. Universal version of the previous Impact on Education project, which can now be used on any document, and not just scholarship applications.",
+        "github": "blueprintboulder/f21s22-impact-on-education",
+        "url": "",
+        "image_url": "/nonprofit_logos/aalogo.png",
+        "video_url": "https://youtu.be/kLfILw8jVK8",
+        "members": ["Satara Kehn", "Niharika Kunapuli","Shreyas Kadekodi", "Bryce Schumacher", "Matt Moran", "Anjala Katuri","Diya Ghimire", "Jacob Friedman"]
+    },
+    {
         "id": 1,
         "name": "Impact on Education",
         "session": "Fall 2021-March 2021",

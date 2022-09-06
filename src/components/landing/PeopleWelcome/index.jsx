@@ -27,7 +27,7 @@ export const PeopleWelcome = () => {
       <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
-            <h4>We are students from the University of Colorado Boulder with a keen interest in software and how it can be used to make a positive impact on the word.</h4>
+            <h4>We are students from the University of Colorado Boulder with a keen interest in making a positive impact on the world.</h4>
         </Details>
         <Thumbnail>
           <img src={banner} alt="We're Blueprint Boulder, and we make tech happen for social good." />

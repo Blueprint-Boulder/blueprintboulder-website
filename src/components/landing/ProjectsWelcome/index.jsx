@@ -28,9 +28,9 @@ export const ProjectsWelcome = () => {
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <br />
-          <h1>Curious what we do? </h1>
+          <h1>Curious about what we do?</h1>
           <br />
-          <h4>Every year we help nonprofits amplify their impact through effectively using technology.</h4>
+          <h4>Every year we help nonprofits amplify their impact with our code.</h4>
 
         </Details>
         <Thumbnail>

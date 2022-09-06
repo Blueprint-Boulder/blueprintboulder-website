@@ -9,7 +9,7 @@ export const Projects = () => {
   const { theme } = useContext(ThemeContext);
   return (
     <Wrapper as={Container} id="projects">
-      <h2>Current Projects</h2>
+      <h2>2022-2023 Projects</h2>
       <Grid>
         {current.map(({ id, name, session, tldr, description, image_url, github, url, video_url, team_leads, members }) => (
           <Item key={id} theme={theme}>
@@ -41,6 +41,8 @@ export const Projects = () => {
           </Button>
         </a>
       </div>
+      <br />
+      <div>Click above for our completed projects and demos!</div>
     </Wrapper>
   );
 };

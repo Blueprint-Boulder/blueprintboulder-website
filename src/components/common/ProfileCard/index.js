@@ -12,18 +12,69 @@ export const ProfileCard = styled.div`
   height: 100%;
 `;
 
-function ProfileProjectsItem(props){
-  const { theme, toggleTheme } = useContext(ThemeContext);
+export const ProfileCardLite = styled.div`
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0rem;
+  
+  background: ${({ theme }) => (theme === 'light' ? '#fff' : '#181717')};
+`;
 
-  return <>
+function ProfileProjectsItem(props){
+  const { theme } = useContext(ThemeContext);
+
+  return (props.lite ? <>
     <div
       style={{
         display: 'flex',
         flexDirection: 'column',
         background:   '#fff',
-        borderColor: theme === "light" ? "#0078f8" : "#001a36",
-        borderStyle: "solid",
-        borderWidth: "1px",
+        backgroundClip: 'content-box',
+        outlineColor: theme === "light" ? "#0078f8" : "#001a36",
+        outlineStyle: "solid",
+        outlineWidth: "1px",
+        color: '#0078f8',
+        borderRadius: "5px",
+        alignItems: "center", justifyContent: "center",
+        width: "100%",
+        height: "100%",
+        maxHeight: "3rem",
+        overflow: "hidden",
+      }}>
+        <div style={{flex: 1, 
+            maxHeight: "1rem",
+            overflow: "hidden",  alignItems: "center", justifyContent: "center"}}>
+          <img 
+          style={{
+            marginBottom: 0,
+            objectFit:"cover",
+            height: "1.5rem",
+            width: 'min'
+          }}
+          src={props.data.img} alt={props.data.name}></img>
+        </div>
+        <div style={{width: "100%",
+        backgroundColor: theme === "light" ? "#0078f8" : "#002752", 
+        color:"#fff", flex: 1, fontSize: "0.5rem", textAlign: 'center', alignItems: "center", justifyContent: "center", display:"flex"}}>
+           <div style={{
+           }}>{props.data.name}</div>
+        </div>
+    </div>
+  </>
+  ://non-lite below
+  <>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        background:   '#fff',
+        outlineColor: theme === "light" ? "#0078f8" : "#001a36",
+        outlineStyle: "solid",
+        backgroundClip: 'content-box',
+        overflow: 'hidden',
+        outlineWidth: "1px",
         color: '#0078f8',
         borderRadius: "10px",
         alignItems: "center", justifyContent: "center",
@@ -31,33 +82,30 @@ function ProfileProjectsItem(props){
         height: "100%",
       }}>
         <div style={{flex: 1, 
-            maxHeight: "2rem",
+            maxHeight: "3rem",
             overflow: "hidden",  alignItems: "center", justifyContent: "center"}}>
           <img 
           style={{
-            borderTopLeftRadius: "8.5px",
-            borderTopRightRadius: "8.5px",
 
             marginBottom: 0,
             objectFit:"cover",
-            height: "2rem",
+            height: "3rem",
             width: "100%"
            
           }}
           //rgb(24, 23, 23)
           src={props.data.img} alt={props.data.name}></img>
         </div>
-        <div style={{paddingTop: "0.1rem", paddingBottom: "0.1rem", width: "100%",
-        borderBottomLeftRadius: "7px", borderBottomRightRadius: "7px", 
+        <div style={{ width: "100%",
+        
         backgroundColor: theme === "light" ? "#0078f8" : "#002752", 
-        color:"#fff", flex: 1, fontSize: "0.5rem", textAlign: 'center', alignItems: "center", justifyContent: "center", display:"flex"}}>
+        color:"#fff", flex: 1, fontSize: "0.75rem", paddingLeft:'0.5rem', paddingRight:'0.5rem', textAlign: 'center', alignItems: "center", justifyContent: "center", display:"flex"}}>
            <div style={{
-             paddingLeft: "0.2rem",
-             paddingRight: "0.2rem"
+             
            }}>{props.data.name}</div>
         </div>
     </div>
-  </>
+  </>)
 }
 
 export function ProfileProjects(props){
@@ -76,7 +124,34 @@ export function ProfileProjects(props){
     }
 
     if(projectList.length > 0){
-      return <>
+      return (props.lite ? <>
+        {/* <div style={{flexGrow:1}}></div> */}
+        <div style={{marginLeft: 'auto',  marginTop: 'auto'}}>
+        <div style={{
+          marginLeft: 'auto',
+        display: "grid",
+        padding: '0.5rem',
+        alignSelf: 'end',
+        gridTemplateColumns: 'repeat('+Math.ceil(projectList.length/2)+', 1fr)',
+        gap: '4px',
+        justifyContent: 'right',
+        justifyItems: 'right',
+        alignContent: 'right',
+        alignItems: 'right',
+        
+      }}>
+        {
+          (Math.ceil(projectList.length/2) !== projectList.length/2 && <div></div>)
+        }
+        {projectList.map((proj) => {
+          return <ProfileProjectsItem lite data={proj}></ProfileProjectsItem>
+        })}
+        
+        </div>
+      </div>
+      </> 
+      : //not lite
+      <>
         <h6>Projects</h6>
         <div style={{
         display: "grid",
@@ -92,7 +167,7 @@ export function ProfileProjects(props){
           return <ProfileProjectsItem data={proj}></ProfileProjectsItem>
         })}
         </div>
-      </>
+      </>)  
     }else{
       return <></>
     }
@@ -109,6 +184,14 @@ export function ProfileImage(props) {
   }
 }
 
+export function ProfileImageLite(props) {
+  if (props.src !== undefined && props.src !== "") {
+    return  <div style={{ 'margin-bottom': 0, 'max-width': "8rem", flexGrow: "1",  overflow: "hidden" }}><img src={props.src} alt={props.alt} style={{ 'margin-bottom': 0, 'height': '100%', objectFit: 'cover' }}></img ></div>
+  } else {
+    return <div style={{ 'margin-bottom': 0, 'max-width': "8rem", flexGrow: "1",  overflow: "hidden" }}><img src="/profiles/empty.png" alt="Empty"  style={{ 'margin-bottom': 0, 'height': '100%', objectFit: 'cover' }}></img ></div>;
+  }
+}
+
 
 export const ProfileCardContents = styled.div`
 padding-bottom: 1rem;
@@ -118,8 +201,17 @@ padding-top: 0;
 
 `;
 
+export const ProfileCardContentsLite = styled.div`
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-left: 1rem;
+padding-top: 1rem;
+flex-grow: 1;
+`;
+
 export function ProfileCardName(props) {
-  return <h3 style={{ color: "#0078f8" }}>
+  return <h3 style={{ color: "#0078f8", width: "fit-content", marginBlockStart: 0, marginBlockEnd: 0,   }}>
     {props.name}
     <br />
     <ProfileCardWebsite url={props.url} name={props.name} id={props.id}></ProfileCardWebsite>
