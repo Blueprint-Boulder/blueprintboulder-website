@@ -20,11 +20,24 @@ export const Skills = () => {
             who are interested in design, development, or establishing relationships with our non-profit partners. 
             Click below to sign up for our interest form, and we'll be in contact with you soon!
           </p>
-          <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScjNt6MGpaOgDQTfJBWf7rjX8b4ouTWBp-he5Pt_ifVKwKTdA/viewform?usp=sf_link">
-            <Button>
-              Interest Form 2022
-            </Button>
-          </a>
+          <div style={{
+            display: 'flex',
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            gap: '0.5rem'
+          }}>
+            <a target="_blank" rel="noreferrer" href="https://forms.gle/KeNPwVWxnFc7nRi6A">
+              <Button>
+                Team Applications (only until 9/14 11:59pm MST)
+              </Button>
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScjNt6MGpaOgDQTfJBWf7rjX8b4ouTWBp-he5Pt_ifVKwKTdA/viewform?usp=sf_link">
+              <Button>
+                Interest Form 2022
+              </Button>
+            </a>
+          </div>
+          
         </Details>
         <Details theme={theme}>
           <h1>Are you a Non-profit?</h1>

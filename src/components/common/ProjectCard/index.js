@@ -15,7 +15,7 @@ export const ProjectCard = styled.div`
 
 export function ProjectImage(props) {
   if (props.src !== undefined && props.src !== "") {
-    return <img src={props.src} alt={props.alt} style={{ 'margin-bottom': 0, 'width': "100%" }}></img >;
+    return <img src={props.src} alt={props.alt} style={{ 'marginBottom': 0, 'width': "100%" }}></img >;
   } else {
     return <img src="/nonprofit_logos/empty.png" alt="Empty" style={{ 'marginBottom': 0, 'width': "100%" }}></img >;
   }

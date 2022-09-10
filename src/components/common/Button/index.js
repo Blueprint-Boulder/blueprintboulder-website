@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Button = styled.button`
   cursor: pointer;
   border-radius: 3px;
-  padding: 0.7rem 2.5rem;
+  padding: 0.5rem 2.5rem;
   border: none;
   -webkit-appearance: none;
   -webkit-touch-callout: none;
@@ -20,6 +20,43 @@ export const Button = styled.button`
   }
 
   &:disabled {
+    background: gray;
+  }
+
+  ${({ secondary }) =>
+    secondary &&
+    `
+		background: #93C9FE;
+	`}
+`;
+
+export const LinkButton = styled.a`
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0074d9;
+  background: #fff;
+  border: 1px solid #0074d9;
+
+  &:visited {
+    color: #0074d9;
+  }
+
+  &:focus {
+    color: #0074d9;
+    outline: none;
+  }
+
+  &:disabled {
+    color: #0074d9;
     background: gray;
   }
 
