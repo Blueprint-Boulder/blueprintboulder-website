@@ -8,9 +8,12 @@ import devWhite from 'assets/illustrations/bannerWhite.png';
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
 import { Helmet } from 'react-helmet';
 import { googleAnalyticsID } from 'data/config';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false;
 
 export const Intro = () => {
   const { theme } = useContext(ThemeContext);
