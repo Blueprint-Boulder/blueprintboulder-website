@@ -178,17 +178,17 @@ export function ProfileProjects(props){
 
 export function ProfileImage(props) {
   if (props.src !== undefined && props.src !== "") {
-    return <img src={props.src} alt={props.alt} style={{ 'margin-bottom': 0, 'width': "100%" }}></img >;
+    return <img src={props.src} alt={props.alt} style={{ 'marginBottom': 0, 'width': "100%" }}></img >;
   } else {
-    return <img src="/profiles/empty.png" alt="Empty" style={{ 'margin-bottom': 0, 'width': "100%" }}></img >;
+    return <img src="/profiles/empty.png" alt="Empty" style={{ 'marginBottom': 0, 'width': "100%" }}></img >;
   }
 }
 
 export function ProfileImageLite(props) {
   if (props.src !== undefined && props.src !== "") {
-    return  <div style={{ 'margin-bottom': 0, 'max-width': "8rem", flexGrow: "1",  overflow: "hidden" }}><img src={props.src} alt={props.alt} style={{ 'margin-bottom': 0, 'height': '100%', objectFit: 'cover' }}></img ></div>
+    return  <div style={{ 'marginBottom': 0, 'maxWidth': "8rem", maxHeight: '14rem', flexGrow: "1",  overflow: "hidden" }}><img src={props.src} alt={props.alt} style={{ 'marginBottom': 0, 'height': '100%', objectFit: 'cover' }}></img ></div>
   } else {
-    return <div style={{ 'margin-bottom': 0, 'max-width': "8rem", flexGrow: "1",  overflow: "hidden" }}><img src="/profiles/empty.png" alt="Empty"  style={{ 'margin-bottom': 0, 'height': '100%', objectFit: 'cover' }}></img ></div>;
+    return <div style={{ 'marginBottom': 0, 'maxWidth': "8rem", maxHeight: '14rem', flexGrow: "1",  overflow: "hidden" }}><img src="/profiles/empty.png" alt="Empty"  style={{ 'margin-bottom': 0, 'height': '100%', objectFit: 'cover' }}></img ></div>;
   }
 }
 
