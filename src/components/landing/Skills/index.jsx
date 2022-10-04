@@ -26,11 +26,6 @@ export const Skills = () => {
             flexWrap: 'wrap',
             gap: '0.5rem'
           }}>
-            <a target="_blank" rel="noreferrer" href="https://forms.gle/KeNPwVWxnFc7nRi6A">
-              <Button>
-                Team Applications (only until 9/14 11:59pm MST)
-              </Button>
-            </a>
             <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScjNt6MGpaOgDQTfJBWf7rjX8b4ouTWBp-he5Pt_ifVKwKTdA/viewform?usp=sf_link">
               <Button>
                 Interest Form 2022
