@@ -1,6 +1,17 @@
 [
-   {
-        "id": 1,
+    {
+        "id": 2000,
+        "name": "Tavin Turner",
+        "role": "Developer",
+        "image_url": "/profiles/tavin.png",
+        "url": "http://ta.vin",
+        "github": "itsTurner",
+        "start_year": "2022",
+        "end_year": "Present",
+        "linkedin": "tavin-turner"
+    },
+    {
+        "id": 999,
         "name": "CU Students!",
         "role": "Now recruiting for 2022-2023!",
         "image_url": "",
