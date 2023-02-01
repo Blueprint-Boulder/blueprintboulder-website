@@ -9,7 +9,11 @@
         "url": "https://bevara.co/",
         "image_url": "/nonprofit_logos/bevara_logo.svg",
         "video_url": "",
-        "members": ["Erika Bailon"]
+        "members": [
+            "Erika Bailon",
+            "Ishan Gohil",
+            "Freddy Linn"
+        ]
     },
     {
         "id": 2,
@@ -21,7 +25,9 @@
         "url": "https://www.lafayetteempowerment.org/",
         "image_url": "/nonprofit_logos/lafayette_logo.png",
         "video_url": "",
-        "members": ["Jacob Friedman"]
+        "members": [
+            "Jacob Friedman"
+        ]
     },
     {
         "id": 3,
@@ -33,6 +39,10 @@
         "url": "https://earthforce.org/",
         "image_url": "/nonprofit_logos/earth-logo.jpg",
         "video_url": "",
-        "members": ["Heather Fleming", "Jasey Chanders"]
+        "members": [
+            "Heather Fleming",
+            "Jasey Chanders",
+            "Tavin Turner"
+        ]
     }
 ]

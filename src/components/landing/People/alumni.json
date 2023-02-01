@@ -1,10 +1,21 @@
 [
     {
+        "id": 202303,
+        "name": "Griffin Moyer",
+        "role": "Ex- VP of Culture",
+        "start_year": "2022",
+        "end_year": "2022",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
         "id": 49,
         "name": "Anne Chen",
         "role": "Ex- Team Lead for CIRC",
         "start_year": "2021",
-        "end_year": "Present",
+        "end_year": "2022",
         "image_url": "/profiles/annec.jpg",
         "url": "",
         "github": "",
@@ -59,7 +70,7 @@
         "name": "Satara Kehn",
         "role": "Ex- Team Lead for IoE",
         "start_year": "2021",
-        "end_year": "Present",
+        "end_year": "2022",
         "image_url": "/profiles/satara.jpeg",
         "url": "",
         "github": "",
