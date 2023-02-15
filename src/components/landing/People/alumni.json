@@ -1,5 +1,16 @@
 [
     {
+        "id": 202330,
+        "name": "Michelle Tran",
+        "role": "Co-Founder",
+        "start_year": "2020",
+        "end_year": "2022",
+        "github": "Moppit",
+        "url": "http://michelletran.me/",
+        "linkedin": "michelletran02",
+        "image_url": "/profiles/michelle.png"
+    },
+    {
         "id": 202303,
         "name": "Griffin Moyer",
         "role": "Ex- VP of Culture",
@@ -77,17 +88,6 @@
         "linkedin": "satarakehn"
     },
     {
-        "id": 31,
-        "name": "James Tran",
-        "role": "Ex- Designer",
-        "image_url": "/profiles/james.JPG",
-        "url": "https://sites.google.com/view/james-tran/home",
-        "github": "",
-        "start_year": "2020",
-        "end_year": "2022",
-        "linkedin": "james-tran-h267"
-    },
-    {
         "id": 32,
         "name": "Trevor Ward",
         "role": "Ex- Developer",
@@ -117,17 +117,6 @@
         "url": "",
         "github": "",
         "start_year": "2020",
-        "end_year": "2022",
-        "linkedin": ""
-    },
-    {
-        "id": 35,
-        "name": "Lola Keychenko",
-        "role": "Ex- Developer",
-        "image_url": "",
-        "url": "",
-        "github": "",
-        "start_year": "2022",
         "end_year": "2022",
         "linkedin": ""
     },
@@ -165,17 +154,6 @@
         "linkedin": ""
     },
     {
-        "id": 39,
-        "name": "Ashlynn McGrattan",
-        "role": "Ex- Developer",
-        "image_url": "/profiles/ashlynnm.jpg",
-        "url": "",
-        "github": "asmc8098",
-        "start_year": "2020",
-        "end_year": "2022",
-        "linkedin": "ashlynnmcgrattan"
-    },
-    {
         "id": 41,
         "name": "Ranjan Sigdel",
         "role": "Ex- Developer",
@@ -207,17 +185,6 @@
         "start_year": "2021",
         "end_year": "2022",
         "linkedin": ""
-    },
-    {
-        "id": 44,
-        "name": "Matt Moran",
-        "role": "Ex- Developer",
-        "image_url": "/profiles/mattm.JPG",
-        "url": "",
-        "github": "MattEMoran",
-        "start_year": "2021",
-        "end_year": "2022",
-        "linkedin": "matthew-m-20980a138"
     },
     {
         "id": 45,
