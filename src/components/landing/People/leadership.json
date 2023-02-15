@@ -22,17 +22,6 @@
         "image_url": "/profiles/michal.png"
     },
     {
-        "id": 1,
-        "name": "Michelle Tran",
-        "role": "Co-Founder",
-        "start_year": "2020",
-        "end_year": "Present",
-        "github": "Moppit",
-        "url": "http://michelletran.me/",
-        "linkedin": "michelletran02",
-        "image_url": "/profiles/michelle.png"
-    },
-    {
         "id": 4,
         "name": "Huilin Han",
         "role": "VP of Culture / Co-Founder",
@@ -104,7 +93,7 @@
         "role": "Nonprofit Coordinator",
         "start_year": "2022",
         "end_year": "Present",
-        "image_url": "",
+        "image_url": "/profiles/seren.jpg",
         "url": "",
         "github": "",
         "linkedin": ""
