@@ -16,8 +16,8 @@ export const Skills = () => {
         <Details theme={theme}>
           <h1>Are you a CU affiliate?</h1>
           <p>
-            Blueprint Boulder is open to CU students of any skill level 
-            who are interested in design, development, or establishing relationships with our non-profit partners. 
+            Blueprint Boulder is open to CU students of any skill level
+            who are interested in design, development, or establishing relationships with our non-profit partners.
             Click below to sign up for our interest form, and we'll be in contact with you soon!
           </p>
           <div style={{
@@ -26,24 +26,24 @@ export const Skills = () => {
             flexWrap: 'wrap',
             gap: '0.5rem'
           }}>
-            <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScjNt6MGpaOgDQTfJBWf7rjX8b4ouTWBp-he5Pt_ifVKwKTdA/viewform?usp=sf_link">
+            <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSf_rvzbG-OqXEl1x7iKJWV5mv3Nnr9Zp07WFrFu0If-hSjePQ/viewform">
               <Button>
-                Interest Form 2022
+                Interest Form 2023-2024
               </Button>
             </a>
           </div>
-          
+
         </Details>
         <Details theme={theme}>
           <h1>Are you a Non-profit?</h1>
           <p>
-            We accept meeting requests from nonprofits in January and February 
-            for projects during the following academic year. Our team will collaborate 
+            We accept meeting requests from nonprofits in January and February
+            for projects during the following academic year. Our team will collaborate
             with you to plan your software project, and finalists will have their project
-             built starting in the fall semester, with completion by the end of the spring semester
+            built starting in the fall semester, with completion by the end of the spring semester
           </p>
           <Button>
-            <a href="/work-with-us"  style={{color: "white"}}>
+            <a href="/work-with-us" style={{ color: "white" }}>
               Work with us!
             </a>
           </Button>

@@ -1,47 +1,58 @@
 [
     {
-        "id": 6,
-        "name": "Anushka Kathait",
-        "role": "President / Treasurer",
-        "start_year": "2020",
+        "id": 202301,
+        "name": "Judy Chen",
+        "role": "Co-President",
+        "start_year": "2022",
         "end_year": "Present",
-        "image_url": "/profiles/anushka.jpeg",
+        "image_url": "/profiles/judy.jpg",
         "url": "",
         "github": "",
-        "linkedin": "anushkakathait"
+        "linkedin": "judy--chen"
     },
     {
-        "id": 0,
-        "name": "Michal Bodzianowski",
-        "role": "Vice President",
-        "start_year": "2020",
+        "id": 202306,
+        "name": "Freddy Linn",
+        "role": "Co-President, Webmaster, & Team Lead",
+        "start_year": "2022",
         "end_year": "Present",
-        "github": "ItsMichal",
-        "url": "https://michal.us",
-        "linkedin": "mbodzianowski",
-        "image_url": "/profiles/michal.png"
-    },
-    {
-        "id": 4,
-        "name": "Huilin Han",
-        "role": "VP of Culture / Co-Founder",
-        "start_year": "2020",
-        "end_year": "Present",
-        "image_url": "/profiles/huilin.jpeg",
+        "image_url": "/profiles/freddy.jpg",
         "url": "",
-        "github": "",
-        "linkedin": "huilin-han-a93468157"
+        "github": "freddylinn",
+        "linkedin": "frederick-linn"
     },
     {
-        "id": 7,
-        "name": "Jett Crowson",
-        "role": "VP of Projects",
+        "id": 39,
+        "name": "Ashlynn McGrattan",
+        "role": "Treasurer",
+        "image_url": "/profiles/ashlynnm.jpg",
+        "url": "",
+        "github": "asmc8098",
+        "start_year": "2020",
+        "end_year": "Present",
+        "linkedin": "ashlynnmcgrattan"
+    },
+    {
+        "id": 10,
+        "name": "Jasey Chanders",
+        "role": "VP of Nonprofits",
         "start_year": "2021",
         "end_year": "Present",
-        "image_url": "/profiles/jett.jpg",
+        "image_url": "/profiles/jasey.png",
+        "url": "jaseychanders.com",
+        "github": "jaseychanders",
+        "linkedin": "jasey-chanders-7719511bb"
+    },
+    {
+        "id": 202308,
+        "name": "Ishan Gohil",
+        "role": "VP of Projects",
+        "start_year": "2022",
+        "end_year": "Present",
+        "image_url": "",
         "url": "",
-        "github": "jettdc",
-        "linkedin": "jettcrowson"
+        "github": "",
+        "linkedin": ""
     },
     {
         "id": 202305,
@@ -55,75 +66,20 @@
         "linkedin": ""
     },
     {
-        "id": 202304,
-        "name": "Dustin Trevino",
-        "role": "VP of Nonprofits",
-        "start_year": "2022",
-        "end_year": "Present",
-        "image_url": "/profiles/dustin.jpg",
+        "id": 1111,
+        "name": "Suhani Agarwal",
+        "role": "Culture Coordinator",
+        "image_url": "",
         "url": "",
         "github": "",
-        "linkedin": "dustintrevino11"
-    },
-    {
-        "id": 202301,
-        "name": "Judy Chen",
-        "role": "Social Media Coordinator",
-        "start_year": "2022",
+        "start_year": "2023",
         "end_year": "Present",
-        "image_url": "/profiles/judy.jpg",
-        "url": "",
-        "github": "",
-        "linkedin": "judy--chen"
-    },
-    {
-        "id": 202306,
-        "name": "Freddy Linn",
-        "role": "Webmaster / Developer",
-        "start_year": "2022",
-        "end_year": "Present",
-        "image_url": "/profiles/freddy.jpg",
-        "url": "",
-        "github": "freddylinn",
-        "linkedin": "frederick-linn"
-    },
-    {
-        "id": 202310,
-        "name": "Seren Chapin",
-        "role": "Nonprofit Coordinator",
-        "start_year": "2022",
-        "end_year": "Present",
-        "image_url": "/profiles/seren.jpg",
-        "url": "",
-        "github": "",
         "linkedin": ""
-    },
-    {
-        "id": 10,
-        "name": "Jasey Chanders",
-        "role": "Nonprofit Coordinator / 2022-2023 Team Lead",
-        "start_year": "2021",
-        "end_year": "Present",
-        "image_url": "/profiles/jasey.png",
-        "url": "jaseychanders.com",
-        "github": "jaseychanders",
-        "linkedin": "jasey-chanders-7719511bb"
-    },
-    {
-        "id": 12,
-        "name": "Heather Fleming",
-        "role": "2022-2023 Team Lead",
-        "start_year": "2022",
-        "end_year": "Present",
-        "image_url": "/profiles/heatherf.JPG",
-        "url": "",
-        "github": "",
-        "linkedin": "heather-fleming-02279a194"
     },
     {
         "id": 11,
         "name": "Jacob Friedman",
-        "role": "2022-2023 Team Lead",
+        "role": "Team Lead",
         "image_url": "/profiles/jacobf.jpg",
         "url": "",
         "github": "jacobef",
@@ -132,25 +88,47 @@
         "linkedin": "jacob-friedman-56428221b"
     },
     {
-        "id": 202302,
-        "name": "Erika Bailon",
-        "role": "2022-2023 Team Lead",
-        "start_year": "2022",
-        "end_year": "Present",
+        "id": 110,
+        "name": "Priya Patel",
+        "role": "Team Lead",
         "image_url": "",
         "url": "",
         "github": "",
+        "start_year": "2023",
+        "end_year": "Present",
         "linkedin": ""
     },
     {
-        "id": 202308,
-        "name": "Ishan Gohil",
-        "role": "2022-2023 Team Lead",
-        "start_year": "2022",
-        "end_year": "Present",
+        "id": 112,
+        "name": "Ian Fernandez",
+        "role": "Team Lead",
         "image_url": "",
         "url": "",
         "github": "",
+        "start_year": "2023",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 113,
+        "name": "Sarah Bian",
+        "role": "Team Lead",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2023",
+        "end_year": "Present",
+        "linkedin": ""
+    },
+    {
+        "id": 114,
+        "name": "Alex Ludwigson",
+        "role": "Team Lead",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "start_year": "2023",
+        "end_year": "Present",
         "linkedin": ""
     }
 ]

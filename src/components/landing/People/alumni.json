@@ -1,5 +1,93 @@
 [
     {
+        "id": 12,
+        "name": "Heather Fleming",
+        "role": "2022-2023 Team Lead",
+        "start_year": "2022",
+        "end_year": "2023",
+        "image_url": "/profiles/heatherf.JPG",
+        "url": "",
+        "github": "",
+        "linkedin": "heather-fleming-02279a194"
+    },
+    {
+        "id": 202310,
+        "name": "Seren Chapin",
+        "role": "Ex- Nonprofit Coordinator",
+        "start_year": "2022",
+        "end_year": "2023",
+        "image_url": "/profiles/seren.jpg",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 202302,
+        "name": "Erika Bailon",
+        "role": "2022-2023 Team Lead",
+        "start_year": "2022",
+        "end_year": "2022",
+        "image_url": "",
+        "url": "",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "id": 202304,
+        "name": "Dustin Trevino",
+        "role": "Ex- VP of Nonprofits",
+        "start_year": "2022",
+        "end_year": "2023",
+        "image_url": "/profiles/dustin.jpg",
+        "url": "",
+        "github": "",
+        "linkedin": "dustintrevino11"
+    },
+    {
+        "id": 100,
+        "name": "Anushka Kathait",
+        "role": "Ex- President / Treasurer",
+        "start_year": "2020",
+        "end_year": "2023",
+        "image_url": "/profiles/anushka.jpeg",
+        "url": "",
+        "github": "",
+        "linkedin": "anushkakathait"
+    },
+    {
+        "id": 0,
+        "name": "Michal Bodzianowski",
+        "role": "Ex- Vice President",
+        "start_year": "2020",
+        "end_year": "Present",
+        "github": "ItsMichal",
+        "url": "https://michal.us",
+        "linkedin": "mbodzianowski",
+        "image_url": "/profiles/michal.png"
+    },
+    {
+        "id": 40,
+        "name": "Huilin Han",
+        "role": "Ex- VP of Culture / Co-Founder",
+        "start_year": "2020",
+        "end_year": "Present",
+        "image_url": "/profiles/huilin.jpeg",
+        "url": "",
+        "github": "",
+        "linkedin": "huilin-han-a93468157"
+    },
+    {
+        "id": 70,
+        "name": "Jett Crowson",
+        "role": "Ex- VP of Projects",
+        "start_year": "2021",
+        "end_year": "Present",
+        "image_url": "/profiles/jett.jpg",
+        "url": "",
+        "github": "jettdc",
+        "linkedin": "jettcrowson"
+    },
+    {
         "id": 202330,
         "name": "Michelle Tran",
         "role": "Co-Founder",

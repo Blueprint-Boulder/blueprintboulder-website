@@ -1,64 +1,73 @@
 [
     {
         "id": 1,
-        "name": "Bevara",
-        "session": "Fall 2022-April 2023",
-        "tldr": "Website Feature Development",
-        "description": "Bevara is an outdoor conservation startup focused on connecting outdoor users with outdoor nonprofits. We'll be performing flexible on-the-go website feature development to increase the impact of their outdoor stewardship program.",
+        "name": "Boulder County Nature Association",
+        "session": "Fall 2023-April 2024",
+        "tldr": "Search Engine / Database Development",
+        "description": "BCNA aims to study and conserve the resilient natural ecosystems of Boulder County and adjacent areas of the Colorado Front Range. We will help them categorize information around the countless species of local wildlife.",
         "github": "",
-        "url": "https://bevara.co/",
-        "image_url": "/nonprofit_logos/bevara_logo.svg",
+        "url": "https://bcna.org/",
+        "image_url": "/nonprofit_logos/bcna.jpeg",
         "video_url": "",
         "members": [
-            "Erika Bailon",
-            "Ishan Gohil",
-            "Freddy Linn",
-            "Jack McDonald",
-            "Imad Dar",
-            "Jace Simmons",
-            "Peter McDevitt",
-            "Kartik Sharma",
-            "Rahul Shamkuwar"
+            "Jacob Friedman",
+            "Freddy Linn"
         ]
     },
     {
         "id": 2,
-        "name": "Lafayette Empowerment Center",
-        "session": "Fall 2022-April 2023",
-        "tldr": "Database Development",
-        "description": "Lafayette Empowerment Center helps youth create positive social change through the arts, community-based learning, and leadership opportunities. We'll be creating a database for submitting grants, presenting lesson plans, and registering parents/students.",
+        "name": "One Colorado",
+        "session": "Fall 2023-April 2024",
+        "tldr": "Live Feature Development",
+        "description": "One Colorado works to improve the lives of LGBTQ Coloradans through public education and advocacy. We will be building a legislation tracker among other features for their website.",
         "github": "",
-        "url": "https://www.lafayetteempowerment.org/",
-        "image_url": "/nonprofit_logos/lafayette_logo.png",
+        "url": "https://one-colorado.org/",
+        "image_url": "/nonprofit_logos/one_colorado.png",
         "video_url": "",
         "members": [
-            "Jacob Friedman",
-            "Ashlynn McGrattan",
-            "Eric Gosnell",
-            "Nathan Keyt",
-            "Kevin Chen",
-            "Oscar Rhoades",
-            "Tyler Cako"
+            "Sarah Bian"
         ]
     },
     {
         "id": 3,
-        "name": "Earth Force",
-        "session": "Fall 2022-April 2023",
-        "tldr": "Sustainability Challenge Portal",
-        "description": "Earth Force helps to engage young people as active citizens who improve the environment and their communities. Blueprint will create a 'Student Sustainability Challenge Portal' that allows students to submit challenges and share experiences, while also judging other submissions.",
+        "name": "Big City Mountaineers",
+        "session": "Fall 2023-April 2024",
+        "tldr": "Automated Surveys",
+        "description": "Big City Mountaineers provides transformative experiences through connections to nature that strengthen life skills and build a community for the youth. We will be automating parts of their workflow so more time can be spent on hiking the great outdoors.",
         "github": "",
-        "url": "https://earthforce.org/",
-        "image_url": "/nonprofit_logos/earth-logo.jpg",
+        "url": "https://bigcitymountaineers.org/",
+        "image_url": "/nonprofit_logos/big_city_mountaineers.png",
         "video_url": "",
         "members": [
-            "Heather Fleming",
-            "Jasey Chanders",
-            "Tavin Turner",
-            "Matt Moran",
-            "James Tran",
-            "Lola Keychenko",
-            "Max Eaton"
+            "Alex Ludwigson"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Portland Indigenous Marketplace",
+        "session": "Fall 2023-April 2024",
+        "tldr": "Databse / App Development",
+        "description": "Indigenous Marketplace supports Indigenous artists and entrepreneurs by providing barrier-free, culturally respectful spaces. Our technology will assist them with keeping track of vendor information across their events.",
+        "github": "",
+        "url": "https://indigenousmarketplace.org/",
+        "image_url": "/nonprofit_logos/ind_market.png",
+        "video_url": "",
+        "members": [
+            "Priya Patel"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Colorado Plateau Foundation",
+        "session": "Fall 2023-April 2024",
+        "tldr": "Interactive Map Development",
+        "description": "CPF invests in Native-led organizations that help preserve natural resources across the Colorado Plateau. The interactive map that we build will help highlight Indigenous communities across this region.",
+        "github": "",
+        "url": "https://coloradoplateaufoundation.org/",
+        "image_url": "/nonprofit_logos/cpf.png",
+        "video_url": "",
+        "members": [
+            "Ian Fernandez"
         ]
     }
 ]

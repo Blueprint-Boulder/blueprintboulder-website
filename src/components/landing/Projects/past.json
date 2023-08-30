@@ -1,5 +1,67 @@
 [
     {
+        "id": 31,
+        "name": "Bevara",
+        "session": "Fall 2022-April 2023",
+        "tldr": "Website Feature Development",
+        "description": "Bevara is an outdoor conservation startup focused on connecting outdoor users with outdoor nonprofits. We'll be performing flexible on-the-go website feature development to increase the impact of their outdoor stewardship program.",
+        "github": "",
+        "url": "https://bevara.co/",
+        "image_url": "/nonprofit_logos/bevara_logo.svg",
+        "video_url": "",
+        "members": [
+            "Erika Bailon",
+            "Ishan Gohil",
+            "Freddy Linn",
+            "Jack McDonald",
+            "Imad Dar",
+            "Jace Simmons",
+            "Peter McDevitt",
+            "Kartik Sharma",
+            "Rahul Shamkuwar"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Lafayette Empowerment Center",
+        "session": "Fall 2022-April 2023",
+        "tldr": "Database Development",
+        "description": "Lafayette Empowerment Center helps youth create positive social change through the arts, community-based learning, and leadership opportunities. We'll be creating a database for submitting grants, presenting lesson plans, and registering parents/students.",
+        "github": "",
+        "url": "https://www.lafayetteempowerment.org/",
+        "image_url": "/nonprofit_logos/lafayette_logo.png",
+        "video_url": "",
+        "members": [
+            "Jacob Friedman",
+            "Ashlynn McGrattan",
+            "Eric Gosnell",
+            "Nathan Keyt",
+            "Kevin Chen",
+            "Oscar Rhoades",
+            "Tyler Cako"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Earth Force",
+        "session": "Fall 2022-April 2023",
+        "tldr": "Sustainability Challenge Portal",
+        "description": "Earth Force helps to engage young people as active citizens who improve the environment and their communities. Blueprint will create a 'Student Sustainability Challenge Portal' that allows students to submit challenges and share experiences, while also judging other submissions.",
+        "github": "",
+        "url": "https://earthforce.org/",
+        "image_url": "/nonprofit_logos/earth-logo.jpg",
+        "video_url": "",
+        "members": [
+            "Heather Fleming",
+            "Jasey Chanders",
+            "Tavin Turner",
+            "Matt Moran",
+            "James Tran",
+            "Lola Keychenko",
+            "Max Eaton"
+        ]
+    },
+    {
         "id": 21,
         "name": "Foster Source",
         "session": "Fall 2021-April 2022",
@@ -9,7 +71,15 @@
         "url": "https://fostersource.org/",
         "image_url": "/nonprofit_logos/foster_source.png",
         "video_url": "https://www.youtube.com/watch?v=1O4gGjK8M38",
-        "members": ["Jett Crowson","James Tran", "Trevor Ward", "Owen Helfer", "Isabell Deak", "Lola Keychenko", "Tahira Zafar"]
+        "members": [
+            "Jett Crowson",
+            "James Tran",
+            "Trevor Ward",
+            "Owen Helfer",
+            "Isabell Deak",
+            "Lola Keychenko",
+            "Tahira Zafar"
+        ]
     },
     {
         "id": 22,
@@ -21,7 +91,13 @@
         "url": "https://coloradoimmigrant.org/",
         "image_url": "/nonprofit_logos/circ.png",
         "video_url": "https://www.youtube.com/watch?v=Yv2odPoXe8s",
-        "members": ["Anne Chen", "Ian Draves", "Filip Nedelkov", "Ashlynn McGrattan", "Ranjan Sigdel"]
+        "members": [
+            "Anne Chen",
+            "Ian Draves",
+            "Filip Nedelkov",
+            "Ashlynn McGrattan",
+            "Ranjan Sigdel"
+        ]
     },
     {
         "id": 23,
@@ -33,7 +109,16 @@
         "url": "",
         "image_url": "/nonprofit_logos/aalogo.png",
         "video_url": "https://youtu.be/kLfILw8jVK8",
-        "members": ["Satara Kehn", "Niharika Kunapuli","Shreyas Kadekodi", "Bryce Schumacher", "Matt Moran", "Anjala Katuri","Diya Ghimire", "Jacob Friedman"]
+        "members": [
+            "Satara Kehn",
+            "Niharika Kunapuli",
+            "Shreyas Kadekodi",
+            "Bryce Schumacher",
+            "Matt Moran",
+            "Anjala Katuri",
+            "Diya Ghimire",
+            "Jacob Friedman"
+        ]
     },
     {
         "id": 1,
@@ -44,10 +129,18 @@
         "github": "blueprintboulder/f21s22-impact-on-education",
         "url": "https://www.impactoneducation.org/",
         "image_url": "/nonprofit_logos/impact_on_education.png",
-        "video_url":"",
-        "members": ["Satara Kehn", "Niharika Kunapuli","Shreyas Kadekodi", "Bryce Schumacher", 
-            "Matt Moran", "Anjala Katuri","Diya Ghimire", "Jacob Friedman",
-            "Nicholas Henley"]
+        "video_url": "",
+        "members": [
+            "Satara Kehn",
+            "Niharika Kunapuli",
+            "Shreyas Kadekodi",
+            "Bryce Schumacher",
+            "Matt Moran",
+            "Anjala Katuri",
+            "Diya Ghimire",
+            "Jacob Friedman",
+            "Nicholas Henley"
+        ]
     },
     {
         "id": 2,
@@ -59,8 +152,14 @@
         "url": "https://www.thinkinghuts.org/",
         "live_project_url": "https://github.com/blueprintboulder/s21-thinking-huts/blob/main/Thinking%20Huts%20Documentation.pdf",
         "image_url": "/nonprofit_logos/thinking_huts.png",
-        "video_url":"",
-        "members":["Jaskrit Singh", "Huilin Han", "Cathleen Samson", "Isabell Deak", "Sahand Setareh"]
+        "video_url": "",
+        "members": [
+            "Jaskrit Singh",
+            "Huilin Han",
+            "Cathleen Samson",
+            "Isabell Deak",
+            "Sahand Setareh"
+        ]
     },
     {
         "id": 3,
@@ -72,7 +171,14 @@
         "url": "https://www.girlsincdenver.org/",
         "live_project_url": "https://www.girlsincdenver.org/bb-girls_inc_game/",
         "image_url": "/nonprofit_logos/girls_inc.jpg",
-        "members": ["Zhouming Sun", "Samridhi Shrestha", "James Tran", "Paige Burns", "Dan Liu", "Elly Landrum"]
+        "members": [
+            "Zhouming Sun",
+            "Samridhi Shrestha",
+            "James Tran",
+            "Paige Burns",
+            "Dan Liu",
+            "Elly Landrum"
+        ]
     },
     {
         "id": 4,
@@ -83,6 +189,12 @@
         "url": "https://safehouse-denver.org/",
         "live_project_url": "",
         "image_url": "/nonprofit_logos/safehouse_denver.jpeg",
-        "members": ["Niharika Kunapuli", "Lauren Funston", "Anushka Kathait", "Angel Dong", "Ashlynn McGrattan"]
+        "members": [
+            "Niharika Kunapuli",
+            "Lauren Funston",
+            "Anushka Kathait",
+            "Angel Dong",
+            "Ashlynn McGrattan"
+        ]
     }
 ]
