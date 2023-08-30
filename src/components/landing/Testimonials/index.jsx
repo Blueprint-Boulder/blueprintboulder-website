@@ -86,6 +86,9 @@ export default function Testimonials() {
             if (slideNumber < lastSlide) {
                 setSlideNumber((slideNumber) => slideNumber + 1);
             }
+            else {
+                setSlideNumber(1);
+            }
         }, 5000);
 
         return () => clearInterval(interval);
