@@ -1,73 +1,38 @@
 [
-    {
-        "id": 1,
-        "name": "Boulder County Nature Association",
-        "session": "Fall 2023-April 2024",
-        "tldr": "Search Engine / Database Development",
-        "description": "BCNA aims to study and conserve the resilient natural ecosystems of Boulder County and adjacent areas of the Colorado Front Range. We will help them categorize information around the countless species of local wildlife.",
-        "github": "",
-        "url": "https://bcna.org/",
-        "image_url": "/nonprofit_logos/bcna.jpeg",
-        "video_url": "",
-        "members": [
-            "Jacob Friedman",
-            "Freddy Linn"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "One Colorado",
-        "session": "Fall 2023-April 2024",
-        "tldr": "Live Feature Development",
-        "description": "One Colorado works to improve the lives of LGBTQ Coloradans through public education and advocacy. We will be building a legislation tracker among other features for their website.",
-        "github": "",
-        "url": "https://one-colorado.org/",
-        "image_url": "/nonprofit_logos/one_colorado.png",
-        "video_url": "",
-        "members": [
-            "Sarah Bian"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Big City Mountaineers",
-        "session": "Fall 2023-April 2024",
-        "tldr": "Automated Surveys",
-        "description": "Big City Mountaineers provides transformative experiences through connections to nature that strengthen life skills and build a community for the youth. We will be automating parts of their workflow so more time can be spent on hiking the great outdoors.",
-        "github": "",
-        "url": "https://bigcitymountaineers.org/",
-        "image_url": "/nonprofit_logos/big_city_mountaineers.png",
-        "video_url": "",
-        "members": [
-            "Alex Ludwigson"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Portland Indigenous Marketplace",
-        "session": "Fall 2023-April 2024",
-        "tldr": "Databse / App Development",
-        "description": "Indigenous Marketplace supports Indigenous artists and entrepreneurs by providing barrier-free, culturally respectful spaces. Our technology will assist them with keeping track of vendor information across their events.",
-        "github": "",
-        "url": "https://indigenousmarketplace.org/",
-        "image_url": "/nonprofit_logos/ind_market.png",
-        "video_url": "",
-        "members": [
-            "Priya Patel"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Colorado Plateau Foundation",
-        "session": "Fall 2023-April 2024",
-        "tldr": "Interactive Map Development",
-        "description": "CPF invests in Native-led organizations that help preserve natural resources across the Colorado Plateau. The interactive map that we build will help highlight Indigenous communities across this region.",
-        "github": "",
-        "url": "https://coloradoplateaufoundation.org/",
-        "image_url": "/nonprofit_logos/cpf.png",
-        "video_url": "",
-        "members": [
-            "Ian Fernandez"
-        ]
-    }
+  {
+    "id": 1,
+    "name": "Natural Highs",
+    "session": "Fall 2024-April 2025",
+    "tldr": "App Development",
+    "description": "Natural Highs is an interactive strengths-based Prevention/Intervention Peer Mentor Program that is co-created by teens to empower teens and their communities around healthy lifestyle choices and creating a positive peer culture.",
+    "github": "",
+    "url": "https://www.naturalhighs.org/",
+    "image_url": "/nonprofit_logos/naturalHighs.jpg",
+    "video_url": "",
+    "members": ["Ari Guzzi", "Aidan Donnelly"]
+  },
+  {
+    "id": 2,
+    "name": "Curls On The Block",
+    "session": "Fall 2024-April 2025",
+    "tldr": "Database / Web Development",
+    "description": "Curls on the Block is an enrichment program for girls of all curls and colors to embrace, explore and empower their natural selves while working to increase engagement, investment, and commitment to careers in science, technology, engineering, art, and math (STEAM).",
+    "github": "",
+    "url": "https://curlsontheblock.org/",
+    "image_url": "/nonprofit_logos/curls.png",
+    "video_url": "",
+    "members": ["Ethan Coleman"]
+  },
+  {
+    "id": 3,
+    "name": "Womenexus",
+    "session": "Fall 2023-Present",
+    "tldr": "App Development",
+    "description": "Womenexus is an app intended to help foster meaningful connections among women, for support through life's challenges and career goals.",
+    "github": "",
+    "url": "https://womenexus.buffscreate.net/",
+    "image_url": "/nonprofit_logos/womenexus.jpg",
+    "video_url": "",
+    "members": [""]
+  }
 ]
