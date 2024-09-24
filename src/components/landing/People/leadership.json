@@ -17,7 +17,7 @@
     "start_year": "2022",
     "end_year": "Present",
     "image_url": "/profiles/freddy.jpg",
-    "url": "",
+    "url": "https://freddylinn.com",
     "github": "freddylinn",
     "linkedin": "frederick-linn"
   },
@@ -30,13 +30,13 @@
     "github": "apsuhani20",
     "start_year": "2023",
     "end_year": "Present",
-    "linkedin": ""
+    "linkedin": "suhagarwal"
   },
   {
     "id": 2401,
     "name": "Arielan Palencia Li",
     "role": "VP of Outreach",
-    "image_url": "",
+    "image_url": "/profiles/arielan.jpg",
     "url": "",
     "github": "",
     "start_year": "2023",
@@ -58,12 +58,12 @@
     "id": 2402,
     "name": "Ari Guzzi",
     "role": "VP of Nonprofits / 2024-2025 Team Lead",
-    "image_url": "",
-    "url": "",
-    "github": "",
+    "image_url": "/profiles/ari.jpg",
+    "url": "https://ari-guzzi.com/",
+    "github": "ariguzzi",
     "start_year": "2023",
     "end_year": "Present",
-    "linkedin": ""
+    "linkedin": "arianna-guzzi"
   },
   {
     "id": 1111,
@@ -124,6 +124,17 @@
     "id": 2407,
     "name": "James Legendre",
     "role": "Nonprofit Coordinator",
+    "image_url": "",
+    "url": "",
+    "github": "",
+    "start_year": "2024",
+    "end_year": "Present",
+    "linkedin": ""
+  },
+  {
+    "id": 2410,
+    "name": "Daniel Park",
+    "role": "Social Media Coordinator",
     "image_url": "",
     "url": "",
     "github": "",
