@@ -91,7 +91,7 @@
     "id": 2000,
     "name": "Tavin Turner",
     "role": "Former Developer",
-    "image_url": "/profiles/tavin.png",
+    "image_url": "/profiles/tavin.jpg",
     "url": "http://ta.vin",
     "github": "itsTurner",
     "start_year": "2022",
@@ -316,7 +316,7 @@
     "github": "ItsMichal",
     "url": "https://michal.us",
     "linkedin": "mbodzianowski",
-    "image_url": "/profiles/michal.png"
+    "image_url": "/profiles/michal.jpg"
   },
   {
     "id": 40,
@@ -349,7 +349,7 @@
     "github": "Moppit",
     "url": "http://michelletran.me/",
     "linkedin": "michelletran02",
-    "image_url": "/profiles/michelle.png"
+    "image_url": "/profiles/michelle.jpg"
   },
   {
     "id": 202303,
