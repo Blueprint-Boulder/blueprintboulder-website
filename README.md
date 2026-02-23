@@ -31,7 +31,7 @@ Hosted on [BlueprintBoulder.org](https://blueprintboulder.org). Built by [ItsMic
 
 ## To-Do
 
-- Complete Member profiles
+- Update Member Profiles
 - Add Non-profit section/showcase
 - Add blog section/update feed
 - Connect socials to website
