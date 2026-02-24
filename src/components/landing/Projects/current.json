@@ -46,17 +46,5 @@
     "image_url": "",
     "video_url": "",
     "members": [""]
-  },
-  {
-    "id": 1,
-    "name": "Natural Highs",
-    "session": "Fall 2024-April 2025",
-    "tldr": "App Development",
-    "description": "Natural Highs is an interactive strengths-based Prevention/Intervention Peer Mentor Program that is co-created by teens to empower teens and their communities around healthy lifestyle choices and creating a positive peer culture.",
-    "github": "",
-    "url": "https://www.naturalhighs.org/",
-    "image_url": "/nonprofit_logos/naturalHighs.jpg",
-    "video_url": "",
-    "members": ["Ari Guzzi", "Aidan Donnelly"]
   }
 ]
