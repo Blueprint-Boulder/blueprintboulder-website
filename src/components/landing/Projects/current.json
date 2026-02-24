@@ -31,19 +31,19 @@
     "description": "Urban Symbiosis builds long-standing symbiotic relationships between locally owned and community-driven businesses",
     "github": "",
     "url": "https://www.urbansymbiosis.org/",
-    "image_url": "/nonprofit_logos/urbansymbiosis.png",
+    "image_url": "/nonprofit_logos/urbansymbiosis.jpg",
     "video_url": "",
     "members": [""]
   },
   {
-    "id": 26013,
-    "name": "Upcoming Project 4",
+    "id": 2501,
+    "name": "Natural Highs",
     "session": "Fall 2025-April 2026",
-    "tldr": "TBD",
-    "description": "Description",
+    "tldr": "Application Development",
+    "description": "Natural Highs is an interactive strengths-based Prevention/Intervention Peer Mentor Program that is co-created by teens to empower teens and their communities around healthy lifestyle choices.",
     "github": "",
-    "url": "",
-    "image_url": "",
+    "url": "https://www.naturalhighs.org/",
+    "image_url": "/nonprofit_logos/naturalHighs.jpg",
     "video_url": "",
     "members": [""]
   }
