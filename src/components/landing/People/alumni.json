@@ -1,4 +1,147 @@
 [
+    {
+    "id": 202301,
+    "name": "Judy Chen",
+    "role": "Former Co-President",
+    "start_year": "2022",
+    "end_year": "2025",
+    "image_url": "/profiles/judy.jpg",
+    "url": "",
+    "github": "",
+    "linkedin": "judy--chen"
+  },
+  {
+    "id": 202306,
+    "name": "Freddy Linn",
+    "role": "Former Co-President",
+    "start_year": "2022",
+    "end_year": "2025",
+    "image_url": "/profiles/freddy.jpg",
+    "url": "https://freddylinn.com",
+    "github": "freddylinn",
+    "linkedin": "frederick-linn"
+  },
+  {
+    "id": 1111,
+    "name": "Suhani Agarwal",
+    "role": "Former Treasurer / VP Culture",
+    "start_year": "2023",
+    "end_year": "2025",
+    "image_url": "/profiles/suhani.jpg",
+    "url": "",
+    "github": "apsuhani20",
+    "linkedin": "suhagarwal"
+  },
+  {
+    "id": 202308,
+    "name": "Ishan Gohil",
+    "role": "Former VP Projects",
+    "start_year": "2022",
+    "end_year": "2025",
+    "image_url": "/profiles/ishan.jpg",
+    "url": "",
+    "github": "IshanGProjects",
+    "linkedin": ""
+  },
+  {
+    "id": 2402,
+    "name": "Ari Guzzi",
+    "role": "Former VP Nonprofits",
+    "start_year": "2023",
+    "end_year": "2025",
+    "image_url": "/profiles/ari.jpg",
+    "url": "https://ari-guzzi.com/",
+    "github": "ariguzzi",
+    "linkedin": "arianna-guzzi"
+  },
+  {
+    "id": 26111,
+    "name": "Rahul Shamkuwar",
+    "role": "Former Infrastructure Lead",
+    "start_year": "2023",
+    "end_year": "2025",
+    "image_url": "/profiles/rahul.jpg",
+    "url": "",
+    "github": "rahulshamkuwar",
+    "linkedin": ""
+  },
+  {
+    "id": 2403,
+    "name": "Luca Chaia",
+    "role": "Former Workshop Coord",
+    "start_year": "2023",
+    "end_year": "2025",
+    "image_url": "/profiles/luca.jpg",
+    "url": "",
+    "github": "LucaChaia",
+    "linkedin": ""
+  },
+  {
+    "id": 2404,
+    "name": "Amber Perillo",
+    "role": "Former Culture Coord",
+    "start_year": "2024",
+    "end_year": "2025",
+    "image_url": "/profiles/amber.jpg",
+    "url": "",
+    "github": "pollygecko",
+    "linkedin": ""
+  },
+  {
+    "id": 2405,
+    "name": "Hashirr Lukmahn",
+    "role": "Former Nonprofit Coord",
+    "start_year": "2023",
+    "end_year": "2025",
+    "image_url": "",
+    "url": "",
+    "github": "",
+    "linkedin": ""
+  },
+  {
+    "id": 2406,
+    "name": "Rylee Johnston",
+    "role": "Former Nonprofit Coord",
+    "start_year": "2024",
+    "end_year": "2025",
+    "image_url": "",
+    "url": "",
+    "github": "",
+    "linkedin": ""
+  },
+  {
+    "id": 2407,
+    "name": "James Legendre",
+    "role": "Former Nonprofit Coord",
+    "start_year": "2024",
+    "end_year": "2025",
+    "image_url": "",
+    "url": "",
+    "github": "",
+    "linkedin": ""
+  },
+  {
+    "id": 2408,
+    "name": "Aidan Donnelly",
+    "role": "Former Team Lead",
+    "start_year": "2024",
+    "end_year": "2025",
+    "image_url": "",
+    "url": "",
+    "github": "",
+    "linkedin": ""
+  },
+  {
+    "id": 2409,
+    "name": "Ethan Coleman",
+    "role": "Former Team Lead",
+    "start_year": "2024",
+    "end_year": "2025",
+    "image_url": "",
+    "url": "",
+    "github": "",
+    "linkedin": ""
+  },
   {
     "id": 112,
     "name": "Ian Fernandez",
