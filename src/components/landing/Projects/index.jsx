@@ -16,7 +16,7 @@ export const Projects = () => {
   const { theme } = useContext(ThemeContext);
   return (
     <Wrapper as={Container} id="projects">
-      <h2>2024-2025 Projects</h2>
+      <h2>2025-2026 Projects</h2>
       <Grid>
         {current.map(
           ({
