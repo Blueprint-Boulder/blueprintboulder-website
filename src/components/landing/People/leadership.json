@@ -33,15 +33,15 @@
     "linkedin": "donya-raeouf-69aaa5255"
   },
   {
-    "id": 26024,
-    "name": "Gabriel Wardall",
-    "role": "Nonprofit Coordinator",
-    "image_url": "/profiles/gabriel.jpg",
+    "id": 26026,
+    "name": "Lesley Vazquez",
+    "role": "Nonprofit Lead Coordinator",
+    "image_url": "/profiles/lesley.jpg",
     "url": "",
-    "github": "GabeW21",
+    "github": "",
     "start_year": "2025",
     "end_year": "Present",
-    "linkedin": "gabriel-wardall"
+    "linkedin": "lesleynvazquez"
   },
   {
     "id": 26028,
@@ -77,15 +77,15 @@
     "linkedin": "amy-weitzman-b9897b337"
   },
   {
-    "id": 26026,
-    "name": "Lesley Vazquez",
+    "id": 26024,
+    "name": "Gabriel Wardall",
     "role": "Nonprofit Coordinator",
-    "image_url": "/profiles/lesley.jpg",
+    "image_url": "/profiles/gabriel.jpg",
     "url": "",
-    "github": "",
+    "github": "GabeW21",
     "start_year": "2025",
     "end_year": "Present",
-    "linkedin": "lesleynvazquez"
+    "linkedin": "gabriel-wardall"
   },
   {
     "id": 26027,
