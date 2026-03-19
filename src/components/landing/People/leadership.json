@@ -11,20 +11,9 @@
     "linkedin": "arielan-palencia-li-b13177243"
   },
   {
-    "id": 26021,
-    "name": "Jack Rueschhoff",
-    "role": "Co-VP Projects",
-    "image_url": "/profiles/jack.jpg",
-    "url": "",
-    "github": "JWRoosky",
-    "start_year": "2025",
-    "end_year": "Present",
-    "linkedin": "jack-rueschhoff"
-  },
-  {
     "id": 26022,
     "name": "Yusuf Morsy",
-    "role": "Co-VP Projects",
+    "role": "Co-VP Projects, Backpack Society Team Lead",
     "image_url": "/profiles/yusuf.jpg",
     "url": "",
     "github": "yusufmorsy",
@@ -57,13 +46,24 @@
   {
     "id": 26028,
     "name": "Zaim Jami",
-    "role": "Infrastructure Lead",
+    "role": "Infrastructure Lead, Natural Highs Lead",
     "image_url": "/profiles/zaim.jpg",
     "url": "",
     "github": "zaimjami",
     "start_year": "2025",
     "end_year": "Present",
     "linkedin": "zaim-jami-b19857282/"
+  },
+  {
+    "id": 26021,
+    "name": "Jack Rueschhoff",
+    "role": "Co-VP Projects",
+    "image_url": "/profiles/jack.jpg",
+    "url": "",
+    "github": "JWRoosky",
+    "start_year": "2025",
+    "end_year": "Present",
+    "linkedin": "jack-rueschhoff"
   },
   {
     "id": 26025,
