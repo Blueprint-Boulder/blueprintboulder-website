@@ -55,6 +55,17 @@
     "linkedin": "gabriel-wardall"
   },
   {
+    "id": 26028,
+    "name": "Zaim Jami",
+    "role": "Infrastructure Lead",
+    "image_url": "/profiles/zaim.jpg",
+    "url": "",
+    "github": "zaimjami",
+    "start_year": "2025",
+    "end_year": "Present",
+    "linkedin": "zaim-jami-b19857282/"
+  },
+  {
     "id": 26025,
     "name": "Amy Weitzman",
     "role": "Nonprofit Coordinator",
@@ -99,14 +110,25 @@
     "linkedin": "daniel-park-0788a2244"
   },
   {
-    "id": 26028,
-    "name": "Zaim Jami",
-    "role": "Infrastructure Lead",
-    "image_url": "",
+    "id": 26029,
+    "name": "Amisha Anand",
+    "role": "Social Media Coordinator",
+    "image_url": "/profiles/amisha.jpg",
     "url": "",
-    "github": "zaimjami",
-    "start_year": "2025",
+    "github": "A123anand",
+    "start_year": "2026",
     "end_year": "Present",
-    "linkedin": "zaim-jami-b19857282/"
+    "linkedin": "amisha-anand-884528262"
+  },
+  {
+    "id": 26030,
+    "name": "Linden Kurtz",
+    "role": "BCNA Project Leader",
+    "image_url": "/profiles/linden.jpg",
+    "url": "",
+    "github": "lindenkurtz",
+    "start_year": "2026",
+    "end_year": "Present",
+    "linkedin": "lindenkurtz"
   }
 ]
